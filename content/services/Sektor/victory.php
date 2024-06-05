@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="../../../assets/css/style.css">
-
   <link rel="icon" href="../../../img/logo/gbi.png" />
 </head>
 
@@ -59,41 +57,45 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="sektor">
-    <h2 id= "umum"> SEKTOR VICTORY </h2>
-  </div>
-  <div class="container pembinaygsm">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="row">
-          <img src="../../../img/Service/oma saartje.jpg" alt="Sanny Luturmas" id="pembinasektor">
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="row">
-          <div class="about-text">
-            <h2>Pendeta<span> Pembina </span></h2>
+  <div>
+    <div class="sektor">
+      <h2 id="umum"> SEKTOR VICTORY </h2>
+    </div>
+    <div class="container pembinaygsm">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="row">
+            <img src="../../../img/Service/oma saartje.jpg" alt="Sanny Luturmas" id="pembinasektor">
           </div>
         </div>
-        <div class=" row">
-          <div class="about-text">
-            <h5>Pdm. Ny Saar Palijama/Berhitu,  M.Th</h5>
-            <p>Pdm. Ny Saar Palijama/Berhitu,  M.Th menikah dengan Bapak Melchior Palijama dan memiliki 2 anak (Melsa Palijama dan Sarlinda Palijama).
-              <br>
-              Menyelesaikan S1 pada tanggal 01 Juni 2009 di STT INJIL INDONESIA - Ambon dan S2 pada tanggal 20 November 2012 di STT NASARENE INDONESIA - Yogyakarta.
-            </p>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="about-text">
+              <h2>Pendeta<span> Pembina </span></h2>
+            </div>
+          </div>
+          <div class=" row">
+            <div class="about-text">
+              <h5>Pdm. Ny Saar Palijama/Berhitu, M.Th</h5>
+              <p>
+                Pdm. Ny Saar Palijama/Berhitu, M.Th menikah dengan Bapak Melchior Palijama dan memiliki 2 anak (Melsa Palijama dan Sarlinda Palijama).
+              </p>
+              <p>
+                Menyelesaikan S1 pada tanggal 01 Juni 2009 di STT INJIL INDONESIA - Ambon dan S2 pada tanggal 20 November 2012 di STT NASARENE INDONESIA - Yogyakarta.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="deskripsek">
+      <p>
+        Bagi bapak/ibu yang bertempat tinggal di daerah Talagaraja, Mangga Dua, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Rabu jam 18.00 WIT.
+      </p>
+    </div>
   </div>
-  <div class="deskripsek">
-    <p>
-     Bagi bapak/ibu yang bertempat tinggal di daerah Talagaraja, Mangga Dua, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Rabu jam 18.00 WIT.
-    </p>
-  </div>
-
   <!-- isi -->
+
   <!-- footer -->
   <div>
     <footer class="link-light bg-dark">

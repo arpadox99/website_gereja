@@ -296,10 +296,6 @@ img#IPSpage {
   height: 560px;
 }
 
-#dpclass {
-  margin-bottom: px;
-}
-
 /* ukuran service saat layar */
 @media (max-width: 768px) {
   #SM,
@@ -329,6 +325,9 @@ img#IPSpage {
     border-radius: 10%;
     width: auto; /* lebar after mobile */
     height: auto; /* Tinggi menyesuaikan */
+  }
+  #dpclass {
+    margin-bottom: 60px;
   }
 }
 
@@ -434,14 +433,16 @@ ul.sektor li {
   letter-spacing: 1px;
   line-height: 50px;
   font-size: 30px;
-  margin-bottom: 45px;
   text-align: justify;
+  text-indent: 50px;
 }
 
 #umum {
   text-align: center;
 }
-
+.SosmedSektor{
+  margin-top: 45px;
+}
 #pembinasektor {
   border-radius: 18%;
   margin-top: 40px;

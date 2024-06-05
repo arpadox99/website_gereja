@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="../../../assets/css/style.css">
-
   <link rel="icon" href="../../../img/logo/gbi.png" />
 </head>
 
@@ -59,55 +57,58 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="sektor">
-    <h2 id= "umum"> SEKTOR RAJAWALI </h2>
-  </div>
-  <div class="container pembinaygsm">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="row">
-          <img src="../../../img/Service/ibu lucya.jpg" alt="Lucya Titahena" id="pembinasektor">
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="row">
-          <div class="about-text">
-            <h2>Pendeta<span> Pembina </span></h2>
+  <div>
+    <div class="sektor">
+      <h2 id="umum"> SEKTOR RAJAWALI </h2>
+    </div>
+    <div class="container pembinaygsm">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="row">
+            <img src="../../../img/Service/ibu lucya.jpg" alt="Lucya Titahena" id="pembinasektor">
           </div>
         </div>
-        <div class=" row">
-          <div class="about-text">
-            <h5>Pdp. Lucya. F. Titahena, Dip.Th</h5>
-            <p>Pdp. Lucya. F. Titahena, Dip.Th menyelesaikan Diploma 3 di STT Tawangmangu - Solo pada tahun 2002.
-            </p>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="about-text">
+              <h2>Pendeta<span> Pembina </span></h2>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="SosmedSektor">
-            <a target="_blank" href="https://www.facebook.com/people/Lusi-Titahena/pfbid02MEiA8ExjJaqAbrB3ezB5m6DWgNAo3vFPcgfUQ32jwB29dy3aL6fqXmT8P5oijJehl/" class="social-button" id="HrfSosmedSketor">
-              <div class="social-icon" id="IconSosmedSektor">
-                <img src="../../../img/facebook.png" alt="Facebook">
-              </div>
-              Lucy Titahena
-            </a>
-            <a target="_blank" href="https://www.instagram.com/lucyatit/" class="social-button" id="HrfSosmedSketor">
-              <div class="social-icon" id="IconSosmedSektor">
-                <img src="../../../img/instagram.png" alt="Instagram">
-              </div>
-              Lucy Titahena
-            </a>
+          <div class=" row">
+            <div class="about-text">
+              <h5>Pdp. Lucya. F. Titahena, Dip.Th</h5>
+              <p>
+                Pdp. Lucya. F. Titahena, Dip.Th menyelesaikan Diploma 3 di STT Tawangmangu - Solo pada tahun 2002.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="SosmedSektor">
+              <a target="_blank" href="https://www.facebook.com/people/Lusi-Titahena/pfbid02MEiA8ExjJaqAbrB3ezB5m6DWgNAo3vFPcgfUQ32jwB29dy3aL6fqXmT8P5oijJehl/" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/facebook.png" alt="Facebook">
+                </div>
+                Lucy Titahena
+              </a>
+              <a target="_blank" href="https://www.instagram.com/lucyatit/" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/instagram.png" alt="Instagram">
+                </div>
+                Lucy Titahena
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="deskripsek">
+      <p>
+        Bagi bapak/ibu yang bertempat tinggal di daerah Gunung nona, Wara, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Selasa jam 18.00 WIT.
+      </p>
+    </div>
   </div>
-  <div class="deskripsek">
-    <p>
-     Bagi bapak/ibu yang bertempat tinggal di daerah Gunung nona, Wara, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Selasa jam 18.00 WIT.
-    </p>
-  </div>
-
   <!-- isi -->
+
   <!-- footer -->
   <div>
     <footer class="link-light bg-dark">

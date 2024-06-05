@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="../../../assets/css/style.css">
-
   <link rel="icon" href="../../../img/logo/gbi.png" />
 </head>
 
@@ -59,57 +57,60 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="sektor">
-    <h2 id= "umum"> SEKTOR IMANUEL </h2>
-  </div>
-  <div class="container pembinaygsm">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="row">
-          <img src="../../../img/Service/ibu erny.jpg" alt="Erny Nahaklay" id="pembinasektor">
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="row">
-          <div class="about-text">
-            <h2>Pendeta<span> Pembina </span></h2>
+  <div>
+    <div class="sektor">
+      <h2 id="umum"> SEKTOR IMANUEL </h2>
+    </div>
+    <div class="container pembinaygsm">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="row">
+            <img src="../../../img/Service/ibu erny.jpg" alt="Erny Nahaklay" id="pembinasektor">
           </div>
         </div>
-        <div class=" row">
-          <div class="about-text">
-            <h5>Pdp. Erny Julita Tari, Dip.Th</h5>
-            <p>Pdp. Erny Julita Tari, Dip.Th menikah dengan Pdt. Dr.Demianus Nahaklay, M.Th. dan memiliki dua orang anak (Hana Debora Nahaklay dan Haniel Nahaklay).
-              <br>
-              Menyelesaikan Diploma 3 pada tahun 1995 di STA (Sekolah Tinggi Alkitab) Salatiga.
-            </p>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="about-text">
+              <h2>Pendeta<span> Pembina </span></h2>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="SosmedSektor">
-            <a target="_blank" href="https://www.facebook.com/erni.nahaklay?mibextid=LQQJ4d" class="social-button" id="HrfSosmedSketor">
-              <div class="social-icon" id="IconSosmedSektor">
-                <img src="../../../img/facebook.png" alt="Facebook">
-              </div>
-              Erny Nahaklay
-            </a>
-            <a target="_blank" href="https://www.instagram.com/nahaklayerni/" class="social-button" id="HrfSosmedSketor">
-              <div class="social-icon" id="IconSosmedSektor">
-                <img src="../../../img/instagram.png" alt="Instagram">
-              </div>
-              Erny Nahaklay
-            </a>
+          <div class=" row">
+            <div class="about-text">
+              <h5>Pdp. Erny Julita Tari, Dip.Th</h5>
+              <p>Pdp. Erny Julita Tari, Dip.Th menikah dengan Pdt. Dr.Demianus Nahaklay, M.Th. dan memiliki dua orang anak (Hana Debora Nahaklay dan Haniel Nahaklay).
+              </p>
+              <p>
+                Menyelesaikan Diploma 3 pada tahun 1995 di STA (Sekolah Tinggi Alkitab) Salatiga.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="SosmedSektor">
+              <a target="_blank" href="https://www.facebook.com/erni.nahaklay?mibextid=LQQJ4d" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/facebook.png" alt="Facebook">
+                </div>
+                Erny Nahaklay
+              </a>
+              <a target="_blank" href="https://www.instagram.com/nahaklayerni/" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/instagram.png" alt="Instagram">
+                </div>
+                Erny Nahaklay
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="deskripsek">
+      <p>
+        Bagi bapak/ibu yang bertempat tinggal di daerah Kudamati, Airsalobar, Talake dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Rabu jam 18.00 WIT.
+      </p>
+    </div>
   </div>
-  <div class="deskripsek">
-    <p>
-    Bagi bapak/ibu yang bertempat tinggal di daerah Kudamati, Airsalobar, Talake dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Rabu jam 18.00 WIT.
-    </p>
-  </div>
-
   <!-- isi -->
+
   <!-- footer -->
   <div>
     <footer class="link-light bg-dark">

@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="../../../assets/css/style.css">
-
   <link rel="icon" href="../../../img/logo/gbi.png" />
 </head>
 
@@ -59,57 +57,61 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="sektor">
-    <h2 id= "umum"> SEKTOR JOYFULL </h2>
-  </div>
-  <div class="container pembinaygsm">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="row">
-          <img src="../../../img/Service/ayah.jpg" alt="Jimmy Titahena" id="pembinasektor">
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="row">
-          <div class="about-text">
-            <h2>Pendeta<span> Pembina </span></h2>
+  <div>
+    <div class="sektor">
+      <h2 id="umum"> SEKTOR JOYFULL </h2>
+    </div>
+    <div class="container pembinaygsm">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="row">
+            <img src="../../../img/Service/ayah.jpg" alt="Jimmy Titahena" id="pembinasektor">
           </div>
         </div>
-        <div class=" row">
-          <div class="about-text">
-            <h5>Pdm Jimmy Titahena, S.Th</h5>
-            <p>Pdm Jimmy Titahena, S.Th menikah dengan Pdp. Ny. Barsalin Matulatuwa, M.Th dan memiliki 2 anak (Gavrila Melody Titahena dan Gavriel Harmony Titahena).
-              <br>
-              Menyelesaikan S1 di Sekolah Tinggi Theologia Injili Indonesia.
-            </p>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="about-text">
+              <h2>Pendeta<span> Pembina </span></h2>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="SosmedSektor">
-            <a target="_blank" href="https://www.facebook.com/jimmy.titahena" class="social-button" id="HrfSosmedSketor">
-              <div class="social-icon" id="IconSosmedSektor">
-                <img src="../../../img/facebook.png" alt="Facebook">
-              </div>
-              Jimmy Titahena
-            </a>
-            <a target="_blank" href="https://www.instagram.com/jimmy_titahena/" class="social-button" id="HrfSosmedSketor">
-              <div class="social-icon" id="IconSosmedSektor">
-                <img src="../../../img/instagram.png" alt="Instagram">
-              </div>
-              Jimmy Titahena
-            </a>
+          <div class=" row">
+            <div class="about-text">
+              <h5>Pdm Jimmy Titahena, S.Th</h5>
+              <p>Pdm Jimmy Titahena, S.Th menikah dengan Pdp. Ny. Barsalin Matulatuwa, M.Th dan memiliki 2 anak (Gavrila Melody Titahena dan Gavriel Harmony Titahena).
+              </p>
+              <p>
+                Menyelesaikan S1 di Sekolah Tinggi Theologia Injili Indonesia.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="SosmedSektor">
+              <a target="_blank" href="https://www.facebook.com/jimmy.titahena" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/facebook.png" alt="Facebook">
+                </div>
+                Jimmy Titahena
+              </a>
+              <a target="_blank" href="https://www.instagram.com/jimmy_titahena/" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/instagram.png" alt="Instagram">
+                </div>
+                Jimmy Titahena
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="deskripsek">
-    <p>
-    Bagi bapak/ibu yang bertempat tinggal di daerah Passo, Poka, Waitatiri, Hative besar, Lateri, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Selasa jam 18.00 WIT.
-    </p>
+    <div class="deskripsek">
+      <p>
+        Bagi bapak/ibu yang bertempat tinggal di daerah Passo, Poka, Waitatiri, Hative besar, Lateri, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Selasa jam 18.00 WIT.
+      </p>
+    </div>
   </div>
 
   <!-- isi -->
+
   <!-- footer -->
   <div>
     <footer class="link-light bg-dark">

@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="../../../assets/css/style.css">
-
   <link rel="icon" href="../../../img/logo/gbi.png" />
 </head>
 
@@ -59,51 +57,55 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="sektor">
-    <h2 id= "umum"> SEKTOR NUSANIWE </h2>
-  </div>
-  <div class="container pembinaygsm">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="row">
-          <img src="../../../img/Service/oma cory.jpg" alt="Sanny Luturmas" id="pembinasektor">
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="row">
-          <div class="about-text">
-            <h2>Pendeta<span> Pembina </span></h2>
+  <div>
+    <div class="sektor">
+      <h2 id="umum"> SEKTOR NUSANIWE </h2>
+    </div>
+    <div class="container pembinaygsm">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="row">
+            <img src="../../../img/Service/oma cory.jpg" alt="Sanny Luturmas" id="pembinasektor">
           </div>
         </div>
-        <div class=" row">
-          <div class="about-text">
-            <h5>Pdp. Ny. Carolina Paais, S.Th</h5>
-            <p>Pdp. Ny. Carolina Paais, S.Th menikah dengan Pdm. Drs Marthinus Matulatuwa dan memiliki 2 anak (Pdp. Ny. Barsalin  Titahena/M dan Marchel Matulatuwa), 2 menantu dan 5 orang cucu.
-              <br>
-              Menyelesaikan S1 Theologia pada tahun 2012 di STTII Ambon.
-            </p>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="about-text">
+              <h2>Pendeta<span> Pembina </span></h2>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="SosmedSektor">
-            <a target="_blank" href="https://www.facebook.com/corry.matulatuwa.94" class="social-button" id="HrfSosmedSketor">
-              <div class="social-icon" id="IconSosmedSektor">
-                <img src="../../../img/facebook.png" alt="Facebook">
-              </div>
-              Corry Matulatuwa
-            </a>
+          <div class=" row">
+            <div class="about-text">
+              <h5>Pdp. Ny. Carolina Paais, S.Th</h5>
+              <p>
+                Pdp. Ny. Carolina Paais, S.Th menikah dengan Pdm. Drs Marthinus Matulatuwa dan memiliki 2 anak (Pdp. Ny. Barsalin Titahena/M dan Marchel Matulatuwa), 2 menantu dan 5 orang cucu.
+              </p>
+              <p>
+                Menyelesaikan S1 Theologia pada tahun 2012 di STTII Ambon.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="SosmedSektor">
+              <a target="_blank" href="https://www.facebook.com/corry.matulatuwa.94" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/facebook.png" alt="Facebook">
+                </div>
+                Corry Matulatuwa
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="deskripsek">
+      <p>
+        Bagi bapak/ibu yang bertempat tinggal di daerah Latuhalat, Eri, Amahusu, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Jumat jam 18.00 WIT.
+      </p>
+    </div>
   </div>
-  <div class="deskripsek">
-    <p>
-    Bagi bapak/ibu yang bertempat tinggal di daerah Latuhalat, Eri, Amahusu, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Jumat jam 18.00 WIT.
-    </p>
-  </div>
-
   <!-- isi -->
+
   <!-- footer -->
   <div>
     <footer class="link-light bg-dark">

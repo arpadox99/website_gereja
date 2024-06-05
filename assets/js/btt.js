@@ -5,8 +5,8 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 3500 ||
-    document.documentElement.scrollTop > 3500
+    document.body.scrollTop > 5500 ||
+    document.documentElement.scrollTop > 5500
   ) {
     goTopBtn.style.display = "flex";
   } else {

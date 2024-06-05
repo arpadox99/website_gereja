@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="../../../assets/css/style.css">
-
   <link rel="icon" href="../../../img/logo/gbi.png" />
 </head>
 
@@ -59,58 +57,62 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="sektor">
-    <h2 id= "umum"> SEKTOR DEBORA SION </h2>
-  </div>
-  <div class="container pembinaygsm">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="row">
-          <img src="../../../img/Service/paknus.png" alt="Demianus Nahaklay" id="pembinasektor">
-        </div>
-      </div>
-      <div class="col-md-7">
-        <div class="row">
-          <div class="about-text">
-            <h2>Pendeta<span> Pembina </span></h2>
+  <div>
+    <div class="sektor">
+      <h2 id="umum"> SEKTOR DEBORA SION </h2>
+    </div>
+    <div class="container pembinaygsm">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="row">
+            <img src="../../../img/Service/paknus.png" alt="Demianus Nahaklay" id="pembinasektor">
           </div>
         </div>
-        <div class=" row">
-          <div class="about-text">
-            <h5>Pdt. Dr. Demianus Nahaklay, M.Th.</h5>
-            <p>Pdt Dr.Demianus Nahaklay, M.Th. menikah dengan Pdp Erny J.Tari/Nahaklay dan memiliki dua orang anak (Hana Debora Nahaklay dan Haniel Nahaklay).
-              <br>
-              Menyelesaikan D3 pada tahun 1993 di STT Berea Salatiga, S1 di STAKPN Ambon pada tahun 1997,
-              S2 di STT Nazarene Yogyakarta pada tahun 2010, dan S3 di STT Teruna Bhakti Yogyakarta pada tahun 2021.
-            </p>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="about-text">
+              <h2>Pendeta<span> Pembina </span></h2>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="SosmedSektor">
-            <a target="_blank" href="https://www.facebook.com/nus.nahaklay?mibextid=LQQJ4d" class="social-button" id="HrfSosmedSketor">
-              <div class="social-icon" id="IconSosmedSektor">
-                <img src="../../../img/facebook.png" alt="Facebook">
-              </div>
-              Nus Nahaklay
-            </a>
-            <a target="_blank" href="https://www.instagram.com/nusnahaklay/" class="social-button" id="HrfSosmedSketor">
-              <div class="social-icon" id="IconSosmedSektor">
-                <img src="../../../img/instagram.png" alt="Instagram">
-              </div>
-              Nus Nahaklay
-            </a>
+          <div class=" row">
+            <div class="about-text">
+              <h5>Pdt. Dr. Demianus Nahaklay, M.Th.</h5>
+              <p>
+                Pdt Dr.Demianus Nahaklay, M.Th. menikah dengan Pdp Erny J.Tari/Nahaklay dan memiliki dua orang anak (Hana Debora Nahaklay dan Haniel Nahaklay).
+              </p>
+              <p>
+                Menyelesaikan D3 pada tahun 1993 di STT Berea Salatiga, S1 di STAKPN Ambon pada tahun 1997,
+                S2 di STT Nazarene Yogyakarta pada tahun 2010, dan S3 di STT Teruna Bhakti Yogyakarta pada tahun 2021.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="SosmedSektor">
+              <a target="_blank" href="https://www.facebook.com/nus.nahaklay?mibextid=LQQJ4d" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/facebook.png" alt="Facebook">
+                </div>
+                Nus Nahaklay
+              </a>
+              <a target="_blank" href="https://www.instagram.com/nusnahaklay/" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/instagram.png" alt="Instagram">
+                </div>
+                Nus Nahaklay
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="deskripsek">
+      <p>
+        Bagi bapak/ibu yang bertempat tinggal di daerah Pusat Kota dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Rabu jam 18.00 WIT.
+      </p>
+    </div>
   </div>
-  <div class="deskripsek">
-    <p>
-      Bagi bapak/ibu yang bertempat tinggal di daerah Pusat Kota dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Rabu jam 18.00 WIT.
-    </p>
-  </div>
-
   <!-- isi -->
+
   <!-- footer -->
   <div>
     <footer class="link-light bg-dark">
