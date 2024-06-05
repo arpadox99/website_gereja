@@ -1,0 +1,1021 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar STart */
+
+.navbar {
+  background-color: black;
+}
+
+/* ukuran navbar saat layar */
+@media (max-width: 992px) {
+  .navbar-nav {
+    padding-left: 0; /* Adjust this value to move items further to the right */
+  }
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 1.05rem;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: goldenrod !important;
+  transition: 0.5s;
+}
+
+.lighttext {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  color: darkgoldenrod;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: white;
+}
+
+/* Navbar End */
+
+/* Index / Home Start*/
+
+img {
+  pointer-events: none;
+}
+
+.vimi {
+  text-align: center;
+}
+
+.misi {
+  text-align: justify;
+  margin-bottom: 0;
+  counter-reset: item;
+  list-style-type: none;
+}
+
+ul.misi li {
+  margin: 5px -40px;
+  font-size: 1.5rem;
+  counter-increment: item;
+  font-weight: 600;
+}
+
+ul.misi li::before {
+  content: counter(item) ". ";
+}
+
+.text-church {
+  text-align: center;
+}
+
+.card {
+  height: 300px;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+#link {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#loc {
+  border-radius: 5%; /* rounded lokasi foto lokasi gereja*/
+  width: 80%; /* Mengatur lebar gambar menjadi 50% dari elemen induknya */
+  height: auto;
+}
+
+.card-text {
+  text-align: justify;
+  text-indent: 50px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 2rem;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+/* ukuran home saat layar */
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+  ul.misi li {
+    margin: 0 0;
+    font-size: 0.8rem;
+    counter-increment: item;
+  }
+  h3#cabang {
+    padding-top: 20px;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+  h3#pusat,
+  h3#cabang {
+    font-size: 1.1rem;
+  }
+  #loc {
+    width: 75%; /* Mengatur lebar gambar menjadi 50% dari elemen induknya */
+    height: auto;
+  }
+}
+
+/* social gembala */
+
+.social-button {
+  border-radius: 20px;
+  border: 1px solid #000000;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 15px;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  color: black;
+  background-color: rgba(245, 245, 245, 0.85);
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.social-icon img {
+  height: 30px;
+}
+.possosmed {
+  margin: 0 3%;
+}
+#socialmediagembala {
+  background: linear-gradient(130deg, #032554, #032554 65%, #aa74b2);
+}
+
+/* ukuran Gembala saat layar */
+@media (max-width: 768px) {
+  .social-button {
+    padding: 2px 7px;
+    font-size: 0.5rem;
+    margin: 7px;
+  }
+  .social-icon img {
+    height: 15px;
+  }
+}
+/* --- */
+
+/* Index / Home End */
+
+/* Text Model Start*/
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h2#church {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 3.5rem;
+}
+
+@media (max-width: 768px) {
+  h2#church {
+    font-size: 1.5rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+/* Text Model End */
+
+/* Services Start */
+
+.ibadah-raya {
+  background-image: url("../../img/Service/about.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+h2.kop {
+  font-family: "Inter";
+  font-size: 3rem;
+  margin-top: 50px;
+  letter-spacing: 5px;
+}
+
+p#IR {
+  font-size: 2.2rem;
+  text-align: justify;
+  width: 80%;
+  margin-bottom: 100px;
+  text-indent: 100px;
+}
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* ukuran service saat layar */
+@media (max-width: 768px) {
+  .ibadah-raya {
+    min-height: 30vh;
+  }
+  h2.kop {
+    font-size: 1rem;
+    margin-top: 25px;
+  }
+  p#IR {
+    margin-bottom: 10px;
+    text-indent: 30px;
+    font-size: 0.6rem;
+  }
+}
+
+body.colorserv {
+  background-color: black;
+}
+
+.text-serv {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.text-serv2 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.text-serv3 {
+  text-align: center;
+}
+
+a#text {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+a#text h3 {
+  margin-bottom: 15px;
+}
+
+#SM,
+#IS,
+#IWBI,
+#IPS,
+#DP,
+#YGSM {
+  border-radius: 5%; /* rounded menu services*/
+  width: auto; /* lebar */
+  height: 560px;
+}
+
+img#SMpage,
+img#DPpage {
+  border-radius: 3%; /* rounded menu services*/
+  width: 1500px; /* lebar */
+  height: 560px;
+}
+img#ISpage,
+img#IPSpage {
+  border-radius: 3%; /* rounded menu services*/
+  width: auto; /* lebar */
+  height: 560px;
+}
+
+#dpclass {
+  margin-bottom: px;
+}
+
+/* ukuran service saat layar */
+@media (max-width: 768px) {
+  #SM,
+  #IS,
+  #IWBI,
+  #IPS,
+  #DP,
+  #YGSM {
+    width: 300px; /* lebar after mobile */
+    height: auto; /* Tinggi menyesuaikan */
+  }
+  .text-serv {
+    padding-bottom: 0;
+  }
+
+  .text-serv2 {
+    padding-bottom: 0;
+  }
+  a#text h3 {
+    margin-top: 10px;
+    font-size: 0.6rem;
+  }
+  img#SMpage,
+  img#DPpage,
+  img#ISpage,
+  img#IPSpage {
+    border-radius: 10%;
+    width: auto; /* lebar after mobile */
+    height: auto; /* Tinggi menyesuaikan */
+  }
+}
+
+/* .YGSM {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+} */
+h2.YGSM a {
+  color: white;
+}
+
+h2.IDP a {
+  color: white;
+}
+.IDP {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+  .YGSM {
+    margin-top: auto;
+    font-size: 1rem;
+  }
+  .IDP {
+    margin-top: auto;
+    font-size: 1rem;
+  }
+}
+
+/* services menu */
+
+#bannerserv {
+  margin: 40px auto;
+  border-radius: 3%;
+}
+
+#textserv {
+  font-size: 3rem;
+}
+
+p.serv {
+  text-indent: 50px;
+  text-align: justify;
+}
+/* ukuran sektor saat layar */
+@media (max-width: 768px) {
+  p.serv {
+    text-indent: 50px;
+    text-align: justify;
+  }
+  #textserv {
+    font-size: 1.5rem;
+  }
+}
+/* ---------- */
+
+/* Sektor */
+
+ul.sektor li {
+  font-weight: bold;
+}
+
+.sektor h2 {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.about-text {
+  width: 700px;
+}
+
+.about-text h2 {
+  color: black;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-bottom: 1px solid purple;
+}
+
+.about-text span {
+  color: purple;
+}
+
+.about-text h5 {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: #000000;
+  letter-spacing: 1px;
+  line-height: 50px;
+  font-size: 30px;
+  margin-bottom: 45px;
+  text-align: justify;
+}
+
+#umum {
+  text-align: center;
+}
+
+#pembinasektor {
+  border-radius: 18%;
+  margin-top: 40px;
+}
+/* css ibu Barsalin Matulatuwa */
+.batjebackground {
+  background: linear-gradient(135deg, #ffebcd, #ffc1cc, #add8e6);
+}
+.batje {
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.sosmedBarsalinMatuluwa {
+  margin-top: 40px;
+}
+.pembinaygsm {
+  padding: 30px 0;
+}
+
+/* css Pdt Nus Nahaklay */
+.pembinanus {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pembinanus img {
+  height: auto;
+  width: 500px;
+  border-radius: 30px;
+  margin-top: 70px;
+}
+
+.sosmedNus {
+  margin-top: 20px;
+}
+/* #iconNN {
+  width: 5px;
+  height: auto;
+} */
+
+@media (max-width: 768px) {
+  /* css ibu Barsalin Matulatuwa */
+  .batje {
+    font-size: 1rem;
+    margin: 10px auto;
+    text-decoration: underline;
+  }
+  .sosmedBarsalinMatuluwa {
+    margin-top: 10px;
+    text-align: center;
+  }
+  #textbunda {
+    font-size: 1rem;
+    margin-top: 0;
+    text-align: justify;
+  }
+  #Barsalin_Matulatuwa {
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
+  .pembinaygsm {
+    padding: 30px 20px;
+  }
+  #iconBM img {
+    height: 20px;
+  }
+  #hurufBM {
+    font-size: 0.7rem;
+  }
+}
+
+/* Pdm Jimmy T */
+.pembina {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pembina img {
+  height: 520px;
+  width: 330px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.deskripsek p {
+  margin: 60px 80px;
+  margin-top: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Pdp Lucya T */
+
+.pembinalucya {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pembinalucya img {
+  height: 400px;
+  width: 350px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+/* Pdp Erni */
+.pembinaerny {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pembinaerny img {
+  height: 530px;
+  width: 400px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+/* Pdm Sanny */
+.pembinasanny {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pembinasanny img {
+  height: 530px;
+  width: 400px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+/* Pdm Saartje */
+
+.pembinasaartje {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pembinasaartje img {
+  height: 500px;
+  width: 400px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+/* Services End */
+
+/* Ministries START */
+
+.custom-border {
+  background-color: #fed576;
+  padding: 20px;
+  text-align: center;
+}
+
+.custom-border h2 {
+  margin-bottom: 0;
+  font-family: "Krona One";
+}
+
+.button-container {
+  padding: 20px;
+  text-align: center;
+}
+.button-container .btn {
+  margin: 5px;
+  background-color: white;
+  box-shadow: 0 0 20px #c8bfff;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  border: 1px solid;
+  font-family: "Krone One";
+}
+
+.button-container .btn:hover {
+  background-color: #b6a9ff;
+}
+
+.btn a:hover {
+  color: white;
+}
+
+#toggleText1,
+#toggleText1 a {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+#toggleText2,
+#toggleText2 a {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+#toggleText3,
+#toggleText3 a {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+span#jsspan {
+  margin: 20px;
+}
+.hidden {
+  display: none;
+}
+
+#text1 .container,
+#text2 .container,
+#text3 .container {
+  margin-top: 5px;
+  padding: 25px;
+}
+
+/* ukuran ministries saat layar */
+@media (max-width: 768px) {
+  span#jsspan {
+    margin: 0;
+  }
+  #bc1 {
+    padding-bottom: 0;
+  }
+  #bc2 {
+    padding-top: 0;
+  }
+}
+
+/* Ministry JS */
+.text-box {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.purple-box {
+  background-color: #d29bff;
+  color: black;
+  border: 2px solid #000000;
+  margin-bottom: 25px;
+}
+.yellow-box {
+  background-color: #fcecc4;
+  color: black;
+  border: 2px solid #000000;
+}
+.content {
+  margin-top: 20px;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+/* ukuran ministries js saat layar */
+@media (max-width: 768px) {
+  #toggleText1,
+  #toggleText2,
+  #toggleText3 {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .purple-box {
+    width: 55%;
+    margin: 10px auto;
+  }
+  .yellow-box {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+p.fontjs {
+  font-family: "Lexend Deca";
+}
+/* MInistry JS end */
+
+/* Ministries END */
+
+/* Info Start */
+
+#info1 {
+  padding-bottom: 50px;
+  display: block;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+}
+
+thead {
+  background-color: goldenrod;
+}
+
+tbody {
+  background-color: white;
+  opacity: 0.95;
+}
+
+th {
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+
+td {
+  font-family: "Inter";
+  font-size: 1rem;
+}
+
+h4.kop {
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "PT Serif";
+}
+
+img#x {
+  display: none;
+}
+
+img.ggm {
+  width: 500px;
+  height: auto;
+}
+
+hr.thick-hr {
+  background-color: rgb(218, 165, 32); /* Pastikan warna garis terlihat */
+  border: none; /* Hilangkan border default */
+}
+/* ukuran info saat layar */
+@media (max-width: 768px) {
+  h4.kop {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0); /* Ubah warna sesuai kebutuhan */
+    text-decoration-style: solid; /* Pilihan lain: solid, double, dotted, dashed */
+    text-decoration-thickness: 1.5px; /* Atur ketebalan garis bawah */
+    text-underline-offset: 4px; /* Atur jarak antara teks dan garis bawah */
+  }
+  th {
+    font-size: 0.8rem;
+  }
+  td {
+    font-size: 0.8rem;
+  }
+  img#x {
+    display: inline-block;
+    width: 50px;
+    height: auto;
+  }
+  img#gambartabel {
+    visibility: hidden;
+    display: none;
+  }
+  .thick-hr {
+    display: none;
+  }
+}
+
+/* ---- Footer INFO ---- */
+
+.info-help {
+  background-image: url("../../img/info/footer-info.jpg");
+  background-size: cover;
+  min-height: 170vh;
+  position: relative;
+  color: black;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+h2.info {
+  font-family: "Inter";
+  font-size: 3rem;
+  letter-spacing: 5px;
+  width: 70%;
+  margin-top: 200px;
+}
+
+h2.info2 {
+  font-family: "Inter";
+  font-size: 1.8rem;
+}
+
+.bordered-text {
+  border: 2px solid black; /* Atur border dengan 2px solid hitam */
+  padding: 5px;
+}
+
+.border {
+  background-color: rgb(82, 82, 82);
+  border-radius: 30px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  padding-left: 150px;
+}
+
+i.fa {
+  font-size: 30px;
+  color: lime;
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+h3.contact-wa {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+a#no {
+  color: goldenrod;
+  font-size: 24px;
+  position: relative;
+  z-index: 10;
+}
+#QR {
+  width: 10%;
+  height: auto;
+}
+#WAQR {
+  width: 550px;
+}
+/* ukuran info saat layar */
+@media (max-width: 1100px) {
+  .info-help {
+    min-height: 50vh;
+  }
+  h2.info {
+    font-size: 1rem;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+  h2.info2 {
+    font-size: 1rem;
+  }
+  #WAQR {
+    width: 200px;
+  }
+  .border {
+    background-color: rgb(82, 82, 82);
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-bottom: -50px;
+    padding-left: 5px;
+  }
+  .bordered-text {
+    margin-bottom: 25px;
+  }
+  h3.contact-wa,
+  a#no {
+    font-size: 0.7rem;
+    margin: 0 0;
+  }
+  i.fa {
+    font-size: 12px;
+    color: lime;
+  }
+}
+/* ukuran info saat layar */
+@media (max-width: 768px) {
+  h2.info2 {
+    font-size: 1rem;
+  }
+  #WAQR {
+    width: 205px;
+  }
+  .bordered-text {
+    margin-bottom: 30px;
+    padding-right: 10px;
+  }
+  .border {
+    margin-right: 30px;
+    padding-left: 5px;
+  }
+  h2.info2 {
+    font-size: 0.6rem;
+  }
+  a#no {
+    font-size: 0.8rem;
+    margin: 0 0;
+  }
+  #QR {
+    width: 10.7%;
+    height: auto;
+  }
+}
+
+/* ------------------------------------------------ */
+
+/* Info End */
+
+/* Footer Start */
+
+.socialfooter {
+  text-decoration: none;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+/* Footer End */
+
+/* BACK TO TOP */
+
+#goTop {
+  position: fixed; /* posisi tetap sesuai ukuran dibwah */
+  right: 35px;
+  bottom: 70px;
+}
+#goTop a {
+  background: rgba(208, 208, 208, 0.5); /* warna backgrd buttong */
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.3s linear;
+  border-radius: 50%;
+}
+#goTop a:hover {
+  opacity: 0.5;
+}
+/* warna button arah */
+#btt {
+  color: #190064;
+  width: 30px;
+  height: 35px;
+}
+/* hilangkan button sebelum scroll & saat refresh  */
+#goTopBtn {
+  display: none;
+}
