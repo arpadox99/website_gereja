@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>GBI GOD'S GRACE</title>
-  
+
   <script src="https://kit.fontawesome.com/e038b92d7b.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
@@ -96,6 +96,12 @@
               <a target="_blank" href="https://www.instagram.com/jimmy_titahena/" class="social-button" id="HrfSosmedSketor">
                 <div class="social-icon" id="IconSosmedSektor">
                   <img src="../../../img/instagram.png" alt="Instagram">
+                </div>
+                Jimmy Titahena
+              </a>
+              <a target="_blank" href="https://www.youtube.com/@officialjimmytitahena3655" class="social-button" id="HrfSosmedSketor">
+                <div class="social-icon" id="IconSosmedSektor">
+                  <img src="../../../img/youtube.png" alt="Youtube">
                 </div>
                 Jimmy Titahena
               </a>
