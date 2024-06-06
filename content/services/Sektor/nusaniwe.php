@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>GBI GOD'S GRACE</title>
+  
   <script src="https://kit.fontawesome.com/e038b92d7b.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
@@ -61,7 +62,7 @@
     <div class="sektor">
       <h2 id="umum"> SEKTOR NUSANIWE </h2>
     </div>
-    <div class="container pembinaygsm">
+    <div class="container pembinasektor">
       <div class="row">
         <div class="col-md-5">
           <div class="row">
@@ -71,16 +72,15 @@
         <div class="col-md-7">
           <div class="row">
             <div class="about-text">
-              <h2>Pendeta<span> Pembina </span></h2>
+              <h2 id="pendeta">Pendeta<span> Pembina </span></h2>
             </div>
           </div>
           <div class=" row">
             <div class="about-text">
               <h5>Pdp. Ny. Carolina Paais, S.Th</h5>
               <p>
-                Pdp. Ny. Carolina Paais, S.Th menikah dengan Pdm. Drs Marthinus Matulatuwa dan memiliki 2 anak (Pdp. Ny. Barsalin Titahena/M dan Marchel Matulatuwa), 2 menantu dan 5 orang cucu.
-              </p>
-              <p>
+                Pdp. Ny. Carolina Paais, S.Th menikah dengan Pdm. Drs Marthinus Matulatuwa dan memiliki 2 anak 
+                (Pdp. Ny. Barsalin Titahena/M dan Marchel Matulatuwa), 2 menantu dan 5 orang cucu. 
                 Menyelesaikan S1 Theologia pada tahun 2012 di STTII Ambon.
               </p>
             </div>
@@ -98,9 +98,10 @@
         </div>
       </div>
     </div>
-    <div class="deskripsek">
+    <div class="container deskripsek">
       <p>
-        Bagi bapak/ibu yang bertempat tinggal di daerah Latuhalat, Eri, Amahusu, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Jumat jam 18.00 WIT.
+        "Bagi bapak/ibu yang bertempat tinggal di daerah Latuhalat, Eri, Amahusu, dan sekitarnya 
+        dapat mengikuti ibadah di sektor ini, setiap hari Jumat jam 18.00 WIT."
       </p>
     </div>
   </div>

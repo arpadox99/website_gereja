@@ -29,7 +29,6 @@ html {
   color: goldenrod !important;
   transition: 0.5s;
 }
-
 .lighttext {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: italic;
@@ -46,58 +45,47 @@ html {
 img {
   pointer-events: none;
 }
-
 .vimi {
   text-align: center;
 }
-
 .misi {
   text-align: justify;
   margin-bottom: 0;
   counter-reset: item;
   list-style-type: none;
 }
-
 ul.misi li {
   margin: 5px -40px;
   font-size: 1.5rem;
   counter-increment: item;
   font-weight: 600;
 }
-
 ul.misi li::before {
   content: counter(item) ". ";
 }
-
 .text-church {
   text-align: center;
 }
-
 .card {
   height: 300px;
 }
-
 h4 {
   font-size: 1.2rem;
 }
-
 #link {
   font-weight: bold;
   text-decoration: none;
 }
-
 #loc {
   border-radius: 5%; /* rounded lokasi foto lokasi gereja*/
   width: 80%; /* Mengatur lebar gambar menjadi 50% dari elemen induknya */
   height: auto;
 }
-
 .card-text {
   text-align: justify;
   text-indent: 50px;
   font-weight: bold;
 }
-
 p {
   font-size: 2rem;
   text-align: justify;
@@ -127,6 +115,9 @@ p {
   #loc {
     width: 75%; /* Mengatur lebar gambar menjadi 50% dari elemen induknya */
     height: auto;
+  }
+  .card-text {
+    text-indent: 25px;
   }
 }
 
@@ -195,6 +186,7 @@ h2#church {
 a {
   text-decoration: none;
 }
+
 /* Text Model End */
 
 /* Services Start */
@@ -207,14 +199,12 @@ a {
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
-
 h2.kop {
   font-family: "Inter";
   font-size: 3rem;
   margin-top: 50px;
   letter-spacing: 5px;
 }
-
 p#IR {
   font-size: 2.2rem;
   text-align: justify;
@@ -228,6 +218,7 @@ p#IR {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.05);
 }
+
 /* ukuran service saat layar */
 @media (max-width: 768px) {
   .ibadah-raya {
@@ -247,27 +238,22 @@ p#IR {
 body.colorserv {
   background-color: black;
 }
-
 .text-serv {
   text-align: center;
   padding-bottom: 40px;
 }
-
 .text-serv2 {
   text-align: center;
   padding-bottom: 40px;
 }
-
 .text-serv3 {
   text-align: center;
 }
-
 a#text {
   color: white;
   letter-spacing: 1px;
   font-size: 2rem;
 }
-
 a#text h3 {
   margin-bottom: 15px;
 }
@@ -353,6 +339,7 @@ h2.IDP a {
   text-transform: capitalize;
   letter-spacing: 2px;
 }
+
 @media (max-width: 768px) {
   .YGSM {
     margin-top: auto;
@@ -373,19 +360,18 @@ h2.IDP a {
   margin: 40px auto;
   border-radius: 3%;
 }
-
 #textserv {
   font-size: 3rem;
 }
-
 p.serv {
   text-indent: 50px;
   text-align: justify;
 }
-/* ukuran sektor saat layar */
+
+/* ukuran menu di service saat layar */
 @media (max-width: 768px) {
   p.serv {
-    text-indent: 50px;
+    text-indent: 25px;
     text-align: justify;
   }
   #textserv {
@@ -398,17 +384,33 @@ p.serv {
 
 ul.sektor li {
   font-weight: bold;
+  font-style: italic;
 }
-
 .sektor h2 {
   margin-top: 20px;
   font-size: 40px;
+}
+article h3 {
+  font-size: 1.5rem;
+}
+article h4 {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  article h3 {
+    font-size: 1rem;
+  }
+  article h4 {
+    font-size: 1rem;
+    text-indent: 15px;
+  }
 }
 
 .about-text {
   width: 700px;
 }
-
 .about-text h2 {
   color: black;
   font-size: 30px;
@@ -417,11 +419,9 @@ ul.sektor li {
   margin-top: 20px;
   border-bottom: 1px solid purple;
 }
-
 .about-text span {
   color: purple;
 }
-
 .about-text h5 {
   color: black;
   letter-spacing: 2px;
@@ -429,16 +429,14 @@ ul.sektor li {
   margin-bottom: 25px;
   text-transform: capitalize;
 }
-
 .about-text p {
   color: #000000;
-  letter-spacing: 1px;
+  word-spacing: 1.5px;
   line-height: 50px;
-  font-size: 30px;
+  font-size: 2rem;
   text-align: justify;
   text-indent: 50px;
 }
-
 #umum {
   text-align: center;
 }
@@ -446,9 +444,59 @@ ul.sektor li {
   margin-top: 45px;
 }
 #pembinasektor {
-  border-radius: 18%;
+  border-radius: 50px;
   margin-top: 40px;
 }
+.deskripsek p {
+  margin: 20px 0;
+  text-indent: 50px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+@media (max-width: 768px) {
+  #umum {
+    font-size: 2rem;
+  }
+  img#pembinasektor {
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
+  #pendeta {
+    text-align: center;
+  }
+  .about-text h5 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .about-text p {
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 0 15px;
+    text-indent: 25px;
+    line-height: 2;
+  }
+  .SosmedSektor {
+    margin: 10px 0;
+    text-align: center;
+  }
+  #IconSosmedSektor img {
+    height: 25px;
+  }
+  #HrfSosmedSketor {
+    font-size: 1rem;
+  }
+  .deskripsek p {
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 0 15px;
+    text-indent: 25px;
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+}
+
 /* css ibu Barsalin Matulatuwa */
 .batjebackground {
   background: linear-gradient(135deg, #ffebcd, #ffc1cc, #add8e6);
@@ -465,33 +513,8 @@ ul.sektor li {
   padding: 30px 0;
 }
 
-/* css Pdt Nus Nahaklay */
-.pembinanus {
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.pembinanus img {
-  height: auto;
-  width: 500px;
-  border-radius: 30px;
-  margin-top: 70px;
-}
-
-.sosmedNus {
-  margin-top: 20px;
-}
-/* #iconNN {
-  width: 5px;
-  height: auto;
-} */
-
+/* css ibu Barsalin Matulatuwa saat layars */
 @media (max-width: 768px) {
-  /* css ibu Barsalin Matulatuwa */
   .batje {
     font-size: 1rem;
     margin: 10px auto;
@@ -521,99 +544,7 @@ ul.sektor li {
     font-size: 0.7rem;
   }
 }
-
-/* Pdm Jimmy T */
-.pembina {
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.pembina img {
-  height: 520px;
-  width: 330px;
-  border-radius: 10px;
-  margin-top: 50px;
-}
-
-.deskripsek p {
-  margin: 60px 80px;
-  margin-top: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-/* Pdp Lucya T */
-
-.pembinalucya {
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.pembinalucya img {
-  height: 400px;
-  width: 350px;
-  border-radius: 30px;
-  margin-top: 50px;
-}
-
-/* Pdp Erni */
-.pembinaerny {
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.pembinaerny img {
-  height: 530px;
-  width: 400px;
-  border-radius: 30px;
-  margin-top: 20px;
-}
-
-/* Pdm Sanny */
-.pembinasanny {
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.pembinasanny img {
-  height: 530px;
-  width: 400px;
-  border-radius: 30px;
-  margin-top: 20px;
-}
-
-/* Pdm Saartje */
-
-.pembinasaartje {
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.pembinasaartje img {
-  height: 500px;
-  width: 400px;
-  border-radius: 30px;
-  margin-top: 50px;
-}
+/* css ibu Barsalin Matulatuwa */
 
 /* Services End */
 
@@ -624,12 +555,10 @@ ul.sektor li {
   padding: 20px;
   text-align: center;
 }
-
 .custom-border h2 {
   margin-bottom: 0;
   font-family: "Krona One";
 }
-
 .button-container {
   padding: 20px;
   text-align: center;
@@ -644,15 +573,12 @@ ul.sektor li {
   border: 1px solid;
   font-family: "Krone One";
 }
-
 .button-container .btn:hover {
   background-color: #b6a9ff;
 }
-
 .btn a:hover {
   color: white;
 }
-
 #toggleText1,
 #toggleText1 a {
   width: 20%;
@@ -680,7 +606,6 @@ span#jsspan {
 .hidden {
   display: none;
 }
-
 #text1 .container,
 #text2 .container,
 #text3 .container {
@@ -764,28 +689,23 @@ p.fontjs {
   display: block;
   mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
 }
-
 thead {
   background-color: goldenrod;
 }
-
 tbody {
   background-color: white;
   opacity: 0.95;
 }
-
 th {
   text-align: center;
   font-family: sans-serif;
   color: black;
   font-size: 1rem;
 }
-
 td {
   font-family: "Inter";
   font-size: 1rem;
 }
-
 h4.kop {
   font-size: 2rem;
   margin-top: 10px;
@@ -793,20 +713,18 @@ h4.kop {
   text-align: center;
   font-family: "PT Serif";
 }
-
 img#x {
   display: none;
 }
-
 img.ggm {
   width: 500px;
   height: auto;
 }
-
 hr.thick-hr {
   background-color: rgb(218, 165, 32); /* Pastikan warna garis terlihat */
   border: none; /* Hilangkan border default */
 }
+
 /* ukuran info saat layar */
 @media (max-width: 768px) {
   h4.kop {
@@ -849,7 +767,6 @@ hr.thick-hr {
   color: black;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
-
 h2.info {
   font-family: "Inter";
   font-size: 3rem;
@@ -857,17 +774,14 @@ h2.info {
   width: 70%;
   margin-top: 200px;
 }
-
 h2.info2 {
   font-family: "Inter";
   font-size: 1.8rem;
 }
-
 .bordered-text {
   border: 2px solid black; /* Atur border dengan 2px solid hitam */
   padding: 5px;
 }
-
 .border {
   background-color: rgb(82, 82, 82);
   border-radius: 30px;
@@ -875,24 +789,20 @@ h2.info2 {
   margin-bottom: 50px;
   padding-left: 150px;
 }
-
 i.fa {
   font-size: 30px;
   color: lime;
 }
-
 .color-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.03);
 }
-
 h3.contact-wa {
   font-size: 24px;
   margin: 10px 0;
 }
-
 a#no {
   color: goldenrod;
   font-size: 24px;
@@ -906,6 +816,7 @@ a#no {
 #WAQR {
   width: 550px;
 }
+
 /* ukuran info saat layar */
 @media (max-width: 1100px) {
   .info-help {
@@ -942,6 +853,7 @@ a#no {
     color: lime;
   }
 }
+
 /* ukuran info saat layar */
 @media (max-width: 768px) {
   h2.info2 {
