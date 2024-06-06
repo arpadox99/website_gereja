@@ -271,7 +271,16 @@ a#text {
 a#text h3 {
   margin-bottom: 15px;
 }
-
+#SM,
+#IS,
+#IWBI,
+#IPS,
+#DP,
+#YGSM {
+  border-radius: 5%; /* rounded menu services*/
+  width: auto; /* lebar */
+  height: 560px;
+}
 img#SMpage,
 img#DPpage,
 img#IDPpage,
@@ -293,6 +302,15 @@ img#IPSpage {
 
 /* ukuran service saat layar */
 @media (max-width: 768px) {
+  #SM,
+  #IS,
+  #IWBI,
+  #IPS,
+  #DP,
+  #YGSM {
+    width: 300px; /* lebar after mobile */
+    height: auto; /* Tinggi menyesuaikan */
+  }
   .text-serv {
     padding-bottom: 0;
   }
@@ -323,7 +341,7 @@ img#IPSpage {
   height: auto;
   position: absolute;
   top: 0;
-  left: 40%;
+  left: 45%;
   transform: translateY(1380px);
   z-index: 1;
 }
