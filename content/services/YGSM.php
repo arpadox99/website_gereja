@@ -64,10 +64,7 @@
       <img draggable="false" src="../../img/Service/pengurus.jpg" class="mx-auto d-block img-fluid" alt="banner">
     </div>
     <div id="logo">
-      <img draggable="false" src="../../img/Logo/YGSMLogo.png" class="mx-auto d-block img-fluid" alt="banner" id="logoygsm">
-    </div>
-    <div id="banner">
-      <img draggable="false" src="../../img/Service/ygsmdesk.jpg" class="mx-auto d-block img-fluid" alt="banner">
+      <img draggable="false" src="../../img/Service/ygsm.png" class="mx-auto d-block img-fluid" alt="banner">
     </div>
     <div class="batjebackground">
       <div class="container pembinaygsm">

@@ -336,14 +336,8 @@ img#IPSpage {
 .Halaman-ygsm {
   position: relative;
 }
-#logoygsm {
-  width: 15vw;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 45%;
-  transform: translateY(1380px);
-  z-index: 1;
+#logo {
+  margin-top: -110px;
 }
 h2.YGSM a {
   color: white;
@@ -368,10 +362,8 @@ h2.IDP a {
     margin-top: auto;
     font-size: 1rem;
   }
-  #logoygsm {
-    width: 18vw;
-    left: 40%;
-    transform: translateY(485%);
+  #logo {
+    margin-top: -30px;
   }
 }
 
