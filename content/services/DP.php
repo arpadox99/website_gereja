@@ -56,7 +56,7 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="container" id="dpclass">
+  <div class="container" id="classDP">
     <div class="row text-church" id="bannerserv">
       <h2 id="textserv"> Doa Puasa </h2>
       <img draggable="false" src="../../img/Service/doapuasa2.jpg" class="mx-auto d-block img-fluid" alt="DP" id="DPpage">
@@ -73,7 +73,7 @@
   <!-- isi -->
 
   <!-- footer -->
-  <div>
+  <div class="fixed-bottom">
     <footer class="link-light bg-dark">
       <div class="mx-0 p-3 row justify-content-between">
         <div class="col-auto">

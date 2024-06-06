@@ -272,19 +272,10 @@ a#text h3 {
   margin-bottom: 15px;
 }
 
-#SM,
-#IS,
-#IWBI,
-#IPS,
-#DP,
-#YGSM {
-  border-radius: 5%; /* rounded menu services*/
-  width: auto; /* lebar */
-  height: 560px;
-}
-
 img#SMpage,
-img#DPpage {
+img#DPpage,
+img#IDPpage,
+img#IWBIpage {
   border-radius: 3%; /* rounded menu services*/
   width: 1500px; /* lebar */
   height: 560px;
@@ -295,22 +286,16 @@ img#IPSpage {
   width: auto; /* lebar */
   height: 560px;
 }
+#classDP,
+#idpclass {
+  margin-bottom: 50px;
+}
 
 /* ukuran service saat layar */
 @media (max-width: 768px) {
-  #SM,
-  #IS,
-  #IWBI,
-  #IPS,
-  #DP,
-  #YGSM {
-    width: 300px; /* lebar after mobile */
-    height: auto; /* Tinggi menyesuaikan */
-  }
   .text-serv {
     padding-bottom: 0;
   }
-
   .text-serv2 {
     padding-bottom: 0;
   }
@@ -321,28 +306,30 @@ img#IPSpage {
   img#SMpage,
   img#DPpage,
   img#ISpage,
-  img#IPSpage {
+  img#IPSpage,
+  img#IDPpage,
+  img#IWBIpage {
     border-radius: 10%;
     width: auto; /* lebar after mobile */
     height: auto; /* Tinggi menyesuaikan */
   }
-  #dpclass {
-    margin-bottom: 60px;
-  }
 }
 
-/* .YGSM {
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  text-transform: capitalize;
-  letter-spacing: 1px;
-} */
+.Halaman-ygsm {
+  position: relative;
+}
+#logoygsm {
+  width: 15vw;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  transform: translateY(1380px);
+  z-index: 1;
+}
 h2.YGSM a {
   color: white;
 }
-
 h2.IDP a {
   color: white;
 }
@@ -362,6 +349,11 @@ h2.IDP a {
   .IDP {
     margin-top: auto;
     font-size: 1rem;
+  }
+  #logoygsm {
+    width: 18vw;
+    left: 40%;
+    transform: translateY(485%);
   }
 }
 
@@ -440,7 +432,7 @@ ul.sektor li {
 #umum {
   text-align: center;
 }
-.SosmedSektor{
+.SosmedSektor {
   margin-top: 45px;
 }
 #pembinasektor {
