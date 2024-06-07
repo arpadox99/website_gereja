@@ -103,17 +103,14 @@
             </div>
             <div class="col-md-6">
               <div class="row">
-                <div class="text-box purple-box">Praise & Worship</div>
-              </div>
-              <div class=" row">
-                <div class="text-box yellow-box">Grace Worshippers Training</div>
+                <div class="text-box purple-box">Praise & Worship <br> "Grace Worshippers Training" </span> </div>
               </div>
               <div class=" row">
                 <div class="content">
                   <p class="fontjs">
                     Khusus pelayanan di bidang Praise & Worship wajib mengikuti Grace Worshippers Training (GWT)
                     kurang lebih selama 1 Tahun. Di GWT terdapat Class Vocal, Music seperti Gitar, Bass, Keyboard,
-                    Drum Singer, Worship Leader, dan Menari.
+                    Drum, Singer, Worship Leader, dan Creative Ministry (Dance, Tamborin dan Banner).
                   </p>
                 </div>
               </div>
