@@ -202,14 +202,14 @@ a {
 h2.kop {
   font-family: "Inter";
   font-size: 3rem;
-  margin-top: 50px;
+  margin-top: 60px;
   letter-spacing: 5px;
 }
 p#IR {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   text-align: justify;
   width: 80%;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
   text-indent: 100px;
 }
 .color-overlay {
@@ -502,10 +502,11 @@ article h4 {
   background: linear-gradient(135deg, #ffebcd, #ffc1cc, #add8e6);
 }
 .batje {
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
+
 .sosmedBarsalinMatuluwa {
   margin-top: 40px;
 }

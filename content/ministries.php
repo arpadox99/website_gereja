@@ -146,7 +146,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="row">
-                <img src="../img/Ministries/prayer.png" alt="Prayer">
+                <img src="../img/Ministries/prayer.jpg" alt="Prayer">
               </div>
             </div>
             <div class="col-md-6">
