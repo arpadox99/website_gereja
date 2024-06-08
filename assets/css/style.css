@@ -756,133 +756,111 @@ hr.thick-hr {
   .thick-hr {
     display: none;
   }
+  caption {
+    font-size: .9rem;
+  }
 }
-
 /* ---- Footer INFO ---- */
 
-.info-help {
-  background-image: url("../../img/info/footer-info.jpg");
-  background-size: cover;
-  min-height: 170vh;
-  position: relative;
+.contactwa {
+  z-index: 1;
+  margin-top: -380px;
+  margin-bottom: 315px;
+}
+.wa-button {
+  border-radius: 10px;
+  border: 1px solid #000000;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 15px;
+  font-size: 2rem;
   color: black;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: rgba(245, 245, 245, 1);
+  font-family: "Times New Roman", Times, serif;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Menambahkan transisi */
 }
-h2.info {
-  font-family: "Inter";
-  font-size: 3rem;
-  letter-spacing: 5px;
-  width: 70%;
-  margin-top: 200px;
+.wa-button:hover {
+  color: goldenrod; /* Warna saat di-hover */
+  transform: scale(1.05); /* Sedikit memperbesar tombol saat di-hover */
 }
-h2.info2 {
-  font-family: "Inter";
-  font-size: 1.8rem;
+.IconWhatsapp {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }
-.bordered-text {
-  border: 2px solid black; /* Atur border dengan 2px solid hitam */
-  padding: 5px;
+.IconWhatsapp img {
+  height: 50px;
 }
-.border {
-  background-color: rgb(82, 82, 82);
-  border-radius: 30px;
-  margin-right: 150px;
-  margin-bottom: 50px;
-  padding-left: 150px;
-}
-i.fa {
-  font-size: 30px;
-  color: lime;
-}
-.color-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.03);
-}
-h3.contact-wa {
-  font-size: 24px;
-  margin: 10px 0;
-}
-a#no {
-  color: goldenrod;
-  font-size: 24px;
-  position: relative;
-  z-index: 10;
-}
-#QR {
-  width: 10%;
+.QR {
+  width: 185px;
   height: auto;
+  margin-top: -730px;
+  margin-right: 150px;
 }
-#WAQR {
-  width: 550px;
-}
-
-/* ukuran info saat layar */
-@media (max-width: 1100px) {
-  .info-help {
-    min-height: 50vh;
-  }
-  h2.info {
-    font-size: 1rem;
-    margin-top: 70px;
-    margin-left: 10px;
-  }
-  h2.info2 {
-    font-size: 1rem;
-  }
-  #WAQR {
-    width: 200px;
-  }
-  .border {
-    background-color: rgb(82, 82, 82);
-    border-radius: 30px;
-    margin-right: 5px;
-    margin-bottom: -50px;
-    padding-left: 5px;
-  }
-  .bordered-text {
-    margin-bottom: 25px;
-  }
-  h3.contact-wa,
-  a#no {
-    font-size: 0.7rem;
-    margin: 0 0;
-  }
-  i.fa {
-    font-size: 12px;
-    color: lime;
-  }
+.card-body {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
 }
 
 /* ukuran info saat layar */
 @media (max-width: 768px) {
-  h2.info2 {
-    font-size: 1rem;
+  .contactwa {
+    margin-top: -110px;
+    margin-bottom: 0;
   }
-  #WAQR {
-    width: 205px;
+  .card.QR {
+    width: 60px;
+    margin-top: -200px;
+    margin-right: 35px;
+    margin-bottom: 0px;
   }
-  .bordered-text {
-    margin-bottom: 30px;
-    padding-right: 10px;
+  .card.QR .card-body {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 5px 5px;
   }
-  .border {
-    margin-right: 30px;
-    padding-left: 5px;
+  .contactwa .wa-button {
+    font-size: 0.5rem;
+    margin-left: 20px;
+    padding: 5px;
   }
-  h2.info2 {
-    font-size: 0.6rem;
+  .contactwa .IconWhatsapp {
+    margin-right: 5px;
   }
-  a#no {
-    font-size: 0.8rem;
-    margin: 0 0;
-  }
-  #QR {
-    width: 10.7%;
-    height: auto;
+  .contactwa .IconWhatsapp img {
+    height: 10px;
   }
 }
+
+/* ukuran info saat layar
+@media (max-width: 1280px) {
+  .contactwa {
+    margin-top: -200px;
+    margin-bottom: 0;
+  }
+  .card.QR {
+    width: 100px;
+    margin-top: -355px;
+    margin-right: 50px;
+  }
+  .card.QR .card-body {
+    font-size: 1rem;
+    text-align: center;
+    padding: 5px 5px;
+  }
+  .contactwa .wa-button {
+    font-size: .9rem;
+    margin-left: 10px;
+  }
+  .contactwa .IconWhatsapp {
+    margin-right: 5px;
+  }
+  .contactwa .IconWhatsapp img {
+    height: 35px;
+  }
+} */
 
 /* ------------------------------------------------ */
 

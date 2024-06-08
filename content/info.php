@@ -92,7 +92,7 @@ require_once '../config/config.php';
           <div class="row">
             <div class="table-responsive table-condensed">
               <table class="table table-striped align-middle table-bordered mt-2">
-                <caption> Jadwal Ibadah di gereja GBI God's Grace Pusat Kota Ambon </caption>
+                <caption> <q>Jadwal Ibadah di gereja GBI God's Grace Pusat Kota Ambon</q> </caption>
                 <thead class="table">
                   <tr class="align-middle">
                     <th> HARI </th>
@@ -123,22 +123,29 @@ require_once '../config/config.php';
           </div>
         </div>
       </div>
-    </div><br><br>
-    <div class="info-help">
-      <div class="color-overlay d-flex justify-content-start align-items-center">
-        <h2 class="info"> BAGAIMANA KAMI BISA MEMBANTU ANDA ? </h2>
+    </div><br>
+    <div>
+      <div>
+        <img src="../img/info/kontak.png" class="mx-auto d-block img-fluid" alt="info-kontak">
       </div>
-      <div class="color-overlay d-flex flex-column justify-content-end align-items-end">
-        <div class="row border bordered-text">
-          <div class="col" id="WAQR">
-            <i class=" fa fa-whatsapp">
-              <a id="no" href="https://wa.link/3c0b6w" target="_blank"> Hubungi kami via whatsapp </a>
-            </i>
-            <img src="../img/Info/QR.png" alt="" id="QR">
+      <div class="container">
+        <div class="d-flex justify-content-start align-items-start">
+          <div class="contactwa">
+            <a target="_blank" href="https://wa.link/3c0b6w" class="wa-button">
+              <div class="IconWhatsapp">
+                <img src="../img/Logo/wa.png" alt="Whatsapp">
+              </div>
+              Hubungi kami via whatsapp
+            </a>
           </div>
         </div>
-        <div class="color-overlay d-flex justify-content-center align-items-end">
-          <h2 class="info2"> Dengan senang hati, kami akan mendukung perjalanan iman anda </h2>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="card QR">
+            <img src="../img/Info/QR.png" alt="QR">
+            <div class="card-body">
+              SCAN ME!
+            </div>
+          </div>
         </div>
       </div>
     </div>
