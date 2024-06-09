@@ -757,7 +757,7 @@ hr.thick-hr {
     display: none;
   }
   caption {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
 /* ---- Footer INFO ---- */
@@ -794,13 +794,14 @@ hr.thick-hr {
 .QR {
   width: 185px;
   height: auto;
-  margin-top: -730px;
+  margin-top: -770px;
   margin-right: 150px;
 }
 .card-body {
   text-align: center;
   font-size: 1.3rem;
   font-family: "Times New Roman", Times, serif;
+  padding: 0 5px;
   font-weight: 500;
 }
 
@@ -811,26 +812,27 @@ hr.thick-hr {
     margin-bottom: 0;
   }
   .card.QR {
-    width: 60px;
-    margin-top: -200px;
-    margin-right: 35px;
+    width: 50px;
+    margin-top: -207px;
+    margin-right: 40px;
     margin-bottom: 0px;
   }
   .card.QR .card-body {
     font-size: 0.5rem;
     text-align: center;
-    padding: 5px 5px;
+    padding: 0 5px;
   }
   .contactwa .wa-button {
-    font-size: 0.5rem;
-    margin-left: 20px;
-    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.55rem;
+    margin-left: 18px;
+    padding: 2px 5px;
   }
   .contactwa .IconWhatsapp {
     margin-right: 5px;
   }
   .contactwa .IconWhatsapp img {
-    height: 10px;
+    height: 15px;
   }
 }
 
