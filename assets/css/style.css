@@ -61,10 +61,18 @@ ul.misi li {
   font-weight: 600;
 }
 ul.misi li::before {
-  content: counter(item) ". ";
+  content: counter(item) ". "; /* Menampilkan counter item dengan titik dan spasi */
+  /* nomor urut yang dihasilkan oleh counter, misalnya:
+  1. Misi pertama
+  2. Misi kedua
+  3. Misi ketiga */
 }
 .text-church {
   text-align: center;
+}
+#church-div {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .card {
   height: 300px;
@@ -78,8 +86,9 @@ h4 {
 }
 #loc {
   border-radius: 5%; /* rounded lokasi foto lokasi gereja*/
-  width: 80%; /* Mengatur lebar gambar menjadi 50% dari elemen induknya */
+  width: 100%; /* Mengatur lebar gambar menjadi 95% dari elemen induknya */
   height: auto;
+  padding-bottom: 5px;
 }
 .card-text {
   text-align: justify;
@@ -106,15 +115,15 @@ p {
     padding-top: 20px;
   }
   h4 {
-    font-size: 0.9rem;
+    font-size: 1rem;
+  }
+  #church-div {
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
   h3#pusat,
   h3#cabang {
     font-size: 1.1rem;
-  }
-  #loc {
-    width: 75%; /* Mengatur lebar gambar menjadi 50% dari elemen induknya */
-    height: auto;
   }
   .card-text {
     text-indent: 25px;

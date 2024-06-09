@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="img/logo/gbi.png" />
 </head>
@@ -71,7 +71,7 @@
       <div class="row">
         <div class="col-md-6 vimi">
           <h2>Visi</h2>
-          <div>
+          <div class="container">
             <div class="card-body">
               <p class="card-text">
                 Visi Gereja Bethel Indonesia God’s Grace adalah “GEREJA YANG MENJADI BERKAT”
@@ -82,7 +82,7 @@
         </div>
         <div class="col-md-6 vimi">
           <h2>Misi</h2>
-          <div>
+          <div class="container">
             <div class="card-body">
               <p class="card-text">
                 Misi Gereja Bethel Indonesia God’s Grace adalah :
@@ -102,24 +102,30 @@
           </div>
         </div>
       </div>
-    </div><br><br>
-    <div class="container">
+    </div><br>
+    <div class="container" id="church-div">
       <div class="row text-church">
         <h2 id="church">CHURCHES</h2>
         <div class="col-md-6">
           <h3 id="pusat">GBI God's Grace Pusat</h3>
           <img draggable="false" src="img//Home/gbiambon.jpg" class="img-fluid" id="loc" alt="pusat"><br>
-          <h4>Jl. DR Setia Budi No.42 Ambon</h4>
+          <h4 class="container">
+            <i class="fa-solid fa-location-dot" style="color: #f00000;"></i>
+            Jl. DR Setia Budi No.42 Ambon
+          </h4>
           <a id="link" target="blank" href="https://maps.app.goo.gl/2NXuiVWMxX5AygVb8"> View Location </a>
         </div>
         <div class="col-md-6">
           <h3 id="cabang">GBI God's Grace Cabang Halong</h3>
-          <img draggable="false" src="img/Home/gbihalong.png" class="img-fluid" id="loc" alt="halong"><br>
-          <h4>Jl. PHB Halong Atas, Halong, Kec. Baguala, Kota Ambon</h4>
+          <img draggable="false" src="img/Home/gbihalong.jpg" class="img-fluid" id="loc" alt="halong"><br>
+          <h4 class="container">
+            <i class="fa-solid fa-location-dot" style="color: #f00000;"></i>
+            Jl. PHB Halong Atas, Halong, Kec. Baguala, Kota Ambon
+          </h4>
           <a id="link" target="blank" href="https://maps.app.goo.gl/Nx3VK62E2yfSBWSg8"> View Location </a>
         </div>
       </div>
-    </div><br><br>
+    </div><br>
     <div id="gembala">
       <img src="img/Home/gembala.png" alt="gembala" id="gembala" class="mx-auto d-block img-fluid" draggable="false">
     </div>
@@ -186,6 +192,7 @@
   <!-- footer -->
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/08f3c3a570.js" crossorigin="anonymous"></script>
   <script src="assets/js/btt.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
   </script>
