@@ -87,7 +87,7 @@ h4 {
 #loc {
   border-radius: 5%; /* rounded lokasi foto lokasi gereja*/
   width: 100%; /* Mengatur lebar gambar menjadi 95% dari elemen induknya */
-  height: auto;
+  height: 83%;
   padding-bottom: 5px;
 }
 .card-text {
@@ -274,21 +274,17 @@ a#text h3 {
 #YGSM {
   border-radius: 5%; /* rounded menu services*/
   width: auto; /* lebar */
-  height: 560px;
+  height: 560px; /* tinggi */
 }
 img#SMpage,
 img#DPpage,
 img#IDPpage,
+img#ISpage,
+img#IPSpage,
 img#IWBIpage {
   border-radius: 3%; /* rounded menu services*/
-  width: 1500px; /* lebar */
-  height: 560px;
-}
-img#ISpage,
-img#IPSpage {
-  border-radius: 3%; /* rounded menu services*/
-  width: auto; /* lebar */
-  height: 560px;
+  width: 1010px; /* lebar */
+  height: 600px; /* tinggi */
 }
 #classDP,
 #idpclass {
@@ -554,9 +550,319 @@ article h4 {
     font-size: 0.7rem;
   }
 }
-/* css ibu Barsalin Matulatuwa */
+/* css kontak wa ygsm */
+#hrfWA {
+  font-size: 1.3rem;
+}
+.waygsm-button {
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: #d9d9d9;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Menambahkan transisi */
+}
+.waygsm-button:hover {
+  color: goldenrod; /* Warna saat di-hover */
+  transform: scale(1.02); /* Sedikit memperbesar tombol saat di-hover */
+}
+.contactwaygsm {
+  margin-top: -330px;
+  margin-left: 280px;
+}
+.IconWhatsappygsm {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.IconWhatsappygsm img {
+  height: 50px;
+}
+.sosmedygsm {
+  text-align: center;
+  margin-top: -120px;
+  margin-left: 280px;
+}
+#hurufYGSM {
+  font-weight: bold;
+}
 
+/* ukuran kontak ygsm saat layar hp besar*/
+@media (max-width: 768px) {
+  .contactwaygsm {
+    margin-top: -110px;
+    margin-left: 80px;
+    margin-bottom: 0;
+  }
+  #hrfWA {
+    font-size: 0.55rem;
+  }
+  .contactwaygsm .waygsm-button {
+    width: 140px;
+    border-radius: 5px;
+    padding: 2px 2px;
+  }
+  .contactwaygsm .IconWhatsappygsm {
+    margin-right: 5px;
+  }
+  .contactwaygsm .IconWhatsappygsm img {
+    height: 15px;
+  }
+  .sosmedygsm {
+    margin-top: -42px;
+    margin-left: 80px;
+  }
+}
+/* ukuran kontak ygsm saat layar hp kecil*/
+@media (max-width: 400px) {
+  .contactwaygsm {
+    margin-top: -97px;
+    margin-left: 75px;
+    margin-bottom: 0;
+  }
+  #hrfWA {
+    font-size: 0.5rem;
+  }
+  .contactwaygsm .waygsm-button {
+    width: 120px;
+    padding: 1px 2px;
+  }
+  .sosmedygsm {
+    margin-top: -40px;
+    margin-left: 80px;
+  }
+  #hurufYGSM,
+  #iconYGSM {
+    font-size: 0.5rem;
+    height: 20px;
+  }
+}
+/* ukuran kontak ygsm saat layar hp super kecil*/
+@media (max-width: 376px) {
+  .contactwaygsm {
+    margin-top: -100px;
+    margin-left: 70px;
+    margin-bottom: 0;
+  }
+  #hrfWA {
+    font-size: 0.5rem;
+  }
+  .contactwaygsm .waygsm-button {
+    width: 120px;
+    padding: 1px 2px;
+  }
+  .sosmedygsm {
+    margin-top: -40px;
+    margin-left: 80px;
+  }
+  #hurufYGSM,
+  #iconYGSM {
+    font-size: 0.4rem;
+    height: 20px;
+  }
+}
+/* css kontak wa ygsm */
 /* Services End */
+
+/* Info Start */
+#info1 {
+  padding-bottom: 50px;
+  display: block;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+}
+thead {
+  background-color: goldenrod;
+}
+tbody {
+  background-color: white;
+  opacity: 0.95;
+}
+th {
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+td {
+  font-family: "Inter";
+  font-size: 1rem;
+}
+h4.kop {
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "PT Serif";
+}
+img#x {
+  display: none;
+}
+img.ggm {
+  width: 500px;
+  height: auto;
+}
+hr.thick-hr {
+  background-color: rgb(218, 165, 32); /* Pastikan warna garis terlihat */
+  border: none; /* Hilangkan border default */
+}
+
+/* ukuran info saat layar */
+@media (max-width: 768px) {
+  h4.kop {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0); /* Ubah warna sesuai kebutuhan */
+    text-decoration-style: solid; /* Pilihan lain: solid, double, dotted, dashed */
+    text-decoration-thickness: 1.5px; /* Atur ketebalan garis bawah */
+    text-underline-offset: 4px; /* Atur jarak antara teks dan garis bawah */
+  }
+  th {
+    font-size: 0.8rem;
+  }
+  td {
+    font-size: 0.8rem;
+  }
+  img#x {
+    display: inline-block;
+    width: 50px;
+    height: auto;
+  }
+  img#gambartabel {
+    visibility: hidden;
+    display: none;
+  }
+  .thick-hr {
+    display: none;
+  }
+  caption {
+    font-size: 0.9rem;
+  }
+}
+/* ---- Footer INFO ---- */
+
+.contactwa {
+  z-index: 1;
+  margin-top: -380px;
+  margin-bottom: 315px;
+}
+.wa-button {
+  border-radius: 10px;
+  border: 1px solid #000000;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 15px;
+  font-size: 2rem;
+  color: black;
+  background-color: rgba(245, 245, 245, 1);
+  font-family: "Times New Roman", Times, serif;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Menambahkan transisi */
+}
+.wa-button:hover {
+  color: goldenrod; /* Warna saat di-hover */
+  transform: scale(1.05); /* Sedikit memperbesar tombol saat di-hover */
+}
+.IconWhatsapp {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.IconWhatsapp img {
+  height: 50px;
+}
+.QR {
+  width: 185px;
+  height: auto;
+  margin-top: -770px;
+  margin-right: 150px;
+}
+.card-body {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0 5px;
+  font-weight: 500;
+}
+
+/* ukuran info saat layar hp besar*/
+@media (max-width: 768px) {
+  .contactwa {
+    margin-top: -110px;
+    margin-bottom: 0;
+  }
+  .card.QR {
+    width: 50px;
+    margin-top: -207px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+  .card.QR .card-body {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 0 5px;
+  }
+  .contactwa .wa-button {
+    border-radius: 5px;
+    font-size: 0.55rem;
+    margin-left: 18px;
+    padding: 2px 5px;
+  }
+  .contactwa .IconWhatsapp {
+    margin-right: 5px;
+  }
+  .contactwa .IconWhatsapp img {
+    height: 15px;
+  }
+}
+/* ukuran info saat layar hp kecil*/
+@media (max-width: 400px) {
+  .contactwa {
+    margin-top: -100px;
+    margin-bottom: 5px;
+  }
+  .card.QR {
+    width: 50px;
+    margin-top: -190px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+  .card.QR .card-body {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 0 0;
+  }
+  .contactwa .wa-button {
+    border-radius: 5px;
+    font-size: 0.55rem;
+    margin-left: 10px;
+    padding: 2px 5px;
+  }
+  .contactwa .IconWhatsapp {
+    margin-right: 5px;
+  }
+  .contactwa .IconWhatsapp img {
+    height: 15px;
+  }
+}
+/* ukuran info saat layar hp super kecil*/
+@media (max-width: 376px) {
+  .contactwa {
+    margin-top: -100px;
+    margin-bottom: 5px;
+  }
+  .card.QR {
+    width: 50px;
+    margin-top: -190px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
+/* ------------------------------------------------ */
+
+/* Info End */
 
 /* Ministries START */
 
@@ -692,191 +998,6 @@ p.fontjs {
 
 /* Ministries END */
 
-/* Info Start */
-
-#info1 {
-  padding-bottom: 50px;
-  display: block;
-  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
-}
-thead {
-  background-color: goldenrod;
-}
-tbody {
-  background-color: white;
-  opacity: 0.95;
-}
-th {
-  text-align: center;
-  font-family: sans-serif;
-  color: black;
-  font-size: 1rem;
-}
-td {
-  font-family: "Inter";
-  font-size: 1rem;
-}
-h4.kop {
-  font-size: 2rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-family: "PT Serif";
-}
-img#x {
-  display: none;
-}
-img.ggm {
-  width: 500px;
-  height: auto;
-}
-hr.thick-hr {
-  background-color: rgb(218, 165, 32); /* Pastikan warna garis terlihat */
-  border: none; /* Hilangkan border default */
-}
-
-/* ukuran info saat layar */
-@media (max-width: 768px) {
-  h4.kop {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 0.9rem;
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 0, 0); /* Ubah warna sesuai kebutuhan */
-    text-decoration-style: solid; /* Pilihan lain: solid, double, dotted, dashed */
-    text-decoration-thickness: 1.5px; /* Atur ketebalan garis bawah */
-    text-underline-offset: 4px; /* Atur jarak antara teks dan garis bawah */
-  }
-  th {
-    font-size: 0.8rem;
-  }
-  td {
-    font-size: 0.8rem;
-  }
-  img#x {
-    display: inline-block;
-    width: 50px;
-    height: auto;
-  }
-  img#gambartabel {
-    visibility: hidden;
-    display: none;
-  }
-  .thick-hr {
-    display: none;
-  }
-  caption {
-    font-size: 0.9rem;
-  }
-}
-/* ---- Footer INFO ---- */
-
-.contactwa {
-  z-index: 1;
-  margin-top: -380px;
-  margin-bottom: 315px;
-}
-.wa-button {
-  border-radius: 10px;
-  border: 1px solid #000000;
-  display: inline-flex;
-  align-items: center;
-  padding: 5px 15px;
-  font-size: 2rem;
-  color: black;
-  background-color: rgba(245, 245, 245, 1);
-  font-family: "Times New Roman", Times, serif;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Menambahkan transisi */
-}
-.wa-button:hover {
-  color: goldenrod; /* Warna saat di-hover */
-  transform: scale(1.05); /* Sedikit memperbesar tombol saat di-hover */
-}
-.IconWhatsapp {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-}
-.IconWhatsapp img {
-  height: 50px;
-}
-.QR {
-  width: 185px;
-  height: auto;
-  margin-top: -770px;
-  margin-right: 150px;
-}
-.card-body {
-  text-align: center;
-  font-size: 1.3rem;
-  font-family: "Times New Roman", Times, serif;
-  padding: 0 5px;
-  font-weight: 500;
-}
-
-/* ukuran info saat layar */
-@media (max-width: 768px) {
-  .contactwa {
-    margin-top: -110px;
-    margin-bottom: 0;
-  }
-  .card.QR {
-    width: 50px;
-    margin-top: -207px;
-    margin-right: 40px;
-    margin-bottom: 0px;
-  }
-  .card.QR .card-body {
-    font-size: 0.5rem;
-    text-align: center;
-    padding: 0 5px;
-  }
-  .contactwa .wa-button {
-    border-radius: 5px;
-    font-size: 0.55rem;
-    margin-left: 18px;
-    padding: 2px 5px;
-  }
-  .contactwa .IconWhatsapp {
-    margin-right: 5px;
-  }
-  .contactwa .IconWhatsapp img {
-    height: 15px;
-  }
-}
-
-/* ukuran info saat layar
-@media (max-width: 1280px) {
-  .contactwa {
-    margin-top: -200px;
-    margin-bottom: 0;
-  }
-  .card.QR {
-    width: 100px;
-    margin-top: -355px;
-    margin-right: 50px;
-  }
-  .card.QR .card-body {
-    font-size: 1rem;
-    text-align: center;
-    padding: 5px 5px;
-  }
-  .contactwa .wa-button {
-    font-size: .9rem;
-    margin-left: 10px;
-  }
-  .contactwa .IconWhatsapp {
-    margin-right: 5px;
-  }
-  .contactwa .IconWhatsapp img {
-    height: 35px;
-  }
-} */
-
-/* ------------------------------------------------ */
-
-/* Info End */
-
 /* Footer Start */
 
 .socialfooter {
@@ -902,7 +1023,7 @@ hr.thick-hr {
   bottom: 70px;
 }
 #goTop a {
-  background: rgba(208, 208, 208, 0.5); /* warna backgrd buttong */
+  background: rgba(208, 208, 208, 0.8); /* warna backgrd buttong */
   width: 45px;
   height: 45px;
   justify-content: center;
@@ -912,13 +1033,18 @@ hr.thick-hr {
   border-radius: 50%;
 }
 #goTop a:hover {
-  opacity: 0.5;
+  background: rgb(71, 19, 91, 0.8); /* warna backgrd buttong */
+}
+#goTop a i#btt:hover {
+  color: white;
 }
 /* warna button arah */
 #btt {
   color: #190064;
-  width: 30px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 30px;
 }
 /* hilangkan button sebelum scroll & saat refresh  */
 #goTopBtn {

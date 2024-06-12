@@ -161,7 +161,9 @@
 
   <!-- Button to Top -->
   <div id="goTop">
-    <a href="#" id="goTopBtn"><i class="fa fa-chevron-up" id="btt"></i></a>
+    <a href="#" id="goTopBtn">
+      <i class="fa fa-chevron-up" id="btt"></i>
+    </a>
   </div>
   <!-- Button to Top -->
 

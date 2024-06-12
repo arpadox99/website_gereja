@@ -61,11 +61,14 @@
     <div id="banner">
       <img draggable="false" src="../../img/Service/youth.jpg" class="mx-auto d-block img-fluid" alt="banner">
     </div>
+    <div id="logo">
+      <img draggable="false" src="../../img/Service/ygsm.png" class="mx-auto d-block img-fluid" alt="banner">
+    </div>
     <div id="banner">
       <img draggable="false" src="../../img/Service/pengurus.jpg" class="mx-auto d-block img-fluid" alt="banner">
     </div>
-    <div id="logo">
-      <img draggable="false" src="../../img/Service/ygsm.png" class="mx-auto d-block img-fluid" alt="banner">
+    <div id="banner">
+      <img draggable="false" src="../../img/Service/pengurusygsm.jpg" class="mx-auto d-block img-fluid" alt="banner">
     </div>
     <div class="batjebackground">
       <div class="container pembinaygsm">
@@ -91,18 +94,41 @@
                   <div class="social-icon" id="iconBM">
                     <img src="../../img/facebook.png" alt="Facebook">
                   </div>
-                  Barsalin Matulatuwa
+                  Batje Titahena
                 </a>
                 <a target="_blank" href="https://www.instagram.com/batjetitahena" class="social-button" id="hurufBM">
                   <div class="social-icon" id="iconBM">
                     <img src="../../img/instagram.png" alt="Instagram">
                   </div>
-                  Barsalin Matulatuwa
+                  Batje Titahena
                 </a>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <div id="banner">
+    <img draggable="false" src="../../img/Service/contactygsm.jpg" class="mx-auto d-block img-fluid" alt="banner">
+    <div>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="contactwaygsm">
+          <a target="_blank" href="https://wa.link/uh0qad" class="waygsm-button" id="hrfWA">
+            <div class="IconWhatsappygsm">
+              <img src="../../img/Logo/wa.png" alt="Whatsapp">
+            </div>
+            Hubungi kami via Whatsapp / scan QR Code
+          </a>
+        </div>
+      </div>
+      <div class="sosmedygsm">
+        <a target="_blank" href="https://www.instagram.com/y_gsm15/" class="social-button" id="hurufYGSM">
+          <div class="social-icon" id="iconYGSM">
+            <img src="../../img/instagram.png" alt="Instagram">
+          </div>
+          @Y_GSM15
+        </a>
       </div>
     </div>
   </div>

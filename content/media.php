@@ -59,28 +59,18 @@
   <!-- isi -->
   <div>
     <div id="media">
-      <img src="../img/media/media.jpg" class="mx-auto d-block img-fluid" id="media1">
-    </div>
-    <div>
-      <img src="../img/media/media2.jpg" class="mx-auto d-block img-fluid" id="media2">
-    </div>
-    <div>
-      <img src="../img/media/media3.png" class="mx-auto d-block img-fluid" id="media3">
-    </div>
-    <div>
-      <img src="../img/media/media4.png" class="mx-auto d-block img-fluid" id="media4">
-    </div>
-    <div>
-      <img src="../img/media/media5.png" class="mx-auto d-block img-fluid" id="media5">
-    </div>
-    <div>
-      <img src="../img/media/media6.png" class="mx-auto d-block img-fluid" id="media6">
-    </div>
-    <div>
-      <img src="../img/media/media7.png" class="mx-auto d-block img-fluid" id="media7">
-    </div>
-    <div>
-      <img src="../img/media/media8.jpg" class="mx-auto d-block img-fluid" id="media8">
+      <img src="../img/media/media.jpg" class="mx-auto d-block img-fluid" alt="media1">
+      <img src="../img/media/media2.jpg" class="mx-auto d-block img-fluid" alt="media2">
+      <img src="../img/media/ibadahraya.jpg" class="mx-auto d-block img-fluid" alt="media3">
+      <img src="../img/media/perjamuankasih.jpg" class="mx-auto d-block img-fluid" alt="media4">
+      <img src="../img/media/pujiansektor.jpg" class="mx-auto d-block img-fluid" alt="media5">
+      <img src="../img/media/kids.jpg" class="mx-auto d-block img-fluid" alt="media6">
+      <img src="../img/media/ygsm.jpg" class="mx-auto d-block img-fluid" alt="media7">
+      <img src="../img/media/Pelayananan.jpg" class="mx-auto d-block img-fluid" alt="media8">
+      <img src="../img/media/gwt.jpg" class="mx-auto d-block img-fluid" alt="media9">
+      <img src="../img/media/penyerahananak.jpg" class="mx-auto d-block img-fluid" alt="media10">
+      <img src="../img/media/baptis.jpg" class="mx-auto d-block img-fluid" alt="media11">
+      <img src="../img/media/kunjunganakhirtahun.jpg" class="mx-auto d-block img-fluid" alt="media12">
     </div>
   </div>
   <!-- isi -->
