@@ -70,7 +70,9 @@
       <img src="../img/media/gwt.jpg" class="mx-auto d-block img-fluid" alt="media9">
       <img src="../img/media/penyerahananak.jpg" class="mx-auto d-block img-fluid" alt="media10">
       <img src="../img/media/baptis.jpg" class="mx-auto d-block img-fluid" alt="media11">
-      <img src="../img/media/kunjunganakhirtahun.jpg" class="mx-auto d-block img-fluid" alt="media12">
+      <img src="../img/media/kalteng.jpg" class="mx-auto d-block img-fluid" alt="media12">
+      <img src="../img/media/waisai.jpg" class="mx-auto d-block img-fluid" alt="media13">
+      <img src="../img/media/kunjunganakhirtahun.jpg" class="mx-auto d-block img-fluid" alt="media14">
     </div>
   </div>
   <!-- isi -->

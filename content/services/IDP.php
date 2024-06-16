@@ -60,7 +60,7 @@
   <div class="container" id="idpclass">
     <div class="row text-church" id="bannerserv">
       <h2 id="textserv"> Ibadah Doa Pelayan </h2>
-      <img draggable="false" src="../../img/Service/doapersiapan.jpg" class="mx-auto d-block img-fluid" alt="SM" id="IDPpage">
+      <img draggable="false" src="../../img/Service/doapelayan2.jpg" class="mx-auto d-block img-fluid" alt="SM" id="IDPpage">
     </div>
     <div class="container">
       <article>
