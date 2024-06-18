@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>GBI GOD'S GRACE</title>
-  
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
@@ -57,7 +57,7 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="container">
+  <div class="container" id="classIPS">
     <div class="row text-church" id="bannerserv">
       <h2 id="textserv"> Ibadah Pria Sejati </h2>
       <img draggable="false" src="../../img/Service/IPS1.JPG" class="mx-auto d-block img-fluid" alt="IPS" id="IPSpage">
@@ -66,6 +66,8 @@
       <article>
         <p class="serv">
           Pria Sejati adalah Imam bagi keluarga dan rumah tangganya. Oleh karena itu, seorang pria sejati harus memberikan finansial yang cukup bagi keluarganya dan terlebih lagi sebagai seorang pria sejati, ia harus menjadi teladan dalam hal kerohanian bagi keluarga, bagi istri dan bagi anak-anaknya.
+        </p>
+        <p class="serv">
           Oleh karena itu, Ibadah Pria sejati diperuntukkan bagi semua pria yang mau belajar tentang kebenaran Firman Tuhan yang menumbuhkan iman, bahkan yang mau menjadikan semua pria menjadi pria yang berjalan sesuai kebenaran Firman Tuhan.
         </p>
       </article>

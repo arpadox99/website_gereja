@@ -146,7 +146,7 @@
             IBADAH DOA PELAYAN
           </h3>
           <div>
-            <img src="../img/Service/doapelayan.jpg" class="mx-auto d-block img-fluid" alt="IDP">
+            <img src="../img/Service/doapelayanNew.jpg" class="mx-auto d-block img-fluid" alt="IDP">
           </div>
         </a>
     </div>
@@ -155,7 +155,9 @@
 
   <!-- Button to Top -->
   <div id="goTop">
-    <a href="#" id="goTopBtn"><i class="fa fa-chevron-up" id="btt"></i></a>
+    <a href="#" id="goTopBtn">
+      <i class="fa fa-chevron-up" id="btt" style="margin-bottom: 5px;"></i>
+    </a>
   </div>
   <!-- Button to Top -->
 
@@ -186,7 +188,7 @@
   <!-- footer -->
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="../assets/js/btt.js"></script>
+  <script src="../assets/js/bttserv.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
   </script>
 </body>

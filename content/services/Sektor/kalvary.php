@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>GBI GOD'S GRACE</title>
-  
+
   <script src="https://kit.fontawesome.com/e038b92d7b.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
@@ -94,14 +94,16 @@
               </a>
             </div>
           </div>
+          <div class="row">
+            <div class="container deskripsek">
+              <p>
+                <q>Bagi bapak/ibu yang bertempat tinggal di daerah Karpan, Kopertis dan sekitarnya
+                  dapat mengikuti ibadah di sektor ini, setiap hari Rabu jam 18.00 WIT.</q>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container deskripsek">
-      <p>
-        "Bagi bapak/ibu yang bertempat tinggal di daerah Karpan, Kopertis dan sekitarnya
-        dapat mengikuti ibadah di sektor ini, setiap hari Rabu jam 18.00 WIT."
-      </p>
     </div>
   </div>
   <!-- isi -->

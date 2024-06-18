@@ -57,7 +57,7 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="container">
+  <div class="container" id="classIWBI">
     <div class="row text-church" id="bannerserv">
       <h2 id="textserv"> Ibadah Wanita Bethel Indonesia (WBI) </h2>
       <img draggable="false" src="../../img/Service/wbi2.jpg" class="mx-auto d-block img-fluid" alt="IWBI" id="IWBIpage">

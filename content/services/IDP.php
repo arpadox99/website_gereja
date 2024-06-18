@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>GBI GOD'S GRACE</title>
-  
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
@@ -57,24 +57,24 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="container" id="idpclass">
-    <div class="row text-church" id="bannerserv">
-      <h2 id="textserv"> Ibadah Doa Pelayan </h2>
-      <img draggable="false" src="../../img/Service/doapelayan2.jpg" class="mx-auto d-block img-fluid" alt="SM" id="IDPpage">
-    </div>
-    <div class="container">
-      <article>
-        <p class="serv">
-          Ibadah Doa pelayan dilaksanakan setiap hari Sabtu untuk mempersiapkan para pelayan dalam melayani Tuhan di berbagai kegiatan ibadah selama sepekan.
-          Seluruh pelayan juga harus berpuasa sebagai tanda penyerahan diri secara total untuk dipakai Tuhan dalam pelayanan.
-        </p>
-      </article>
-    </div><br><br>
+  <div class="container" id="classIDP">
+    <div class=" row text-church" id="bannerserv">
+    <h2 id="textserv"> Ibadah Doa Pelayan </h2>
+    <img draggable="false" src="../../img/Service/doapelayan2.jpg" class="mx-auto d-block img-fluid" alt="SM" id="IDPpage">
+  </div>
+  <div class="container">
+    <article>
+      <p class="serv">
+        Ibadah Doa pelayan dilaksanakan setiap hari Sabtu untuk mempersiapkan para pelayan dalam melayani Tuhan di berbagai kegiatan ibadah selama sepekan.
+        Seluruh pelayan juga harus berpuasa sebagai tanda penyerahan diri secara total untuk dipakai Tuhan dalam pelayanan.
+      </p>
+    </article>
+  </div><br><br>
   </div>
   <!-- isi -->
 
   <!-- footer -->
-  <div class="fixed-bottom">
+  <div>
     <footer class="link-light bg-dark">
       <div class="mx-0 p-3 row justify-content-between">
         <div class="col-auto">

@@ -107,17 +107,18 @@
               </a>
             </div>
           </div>
+          <div class="row">
+            <div class="container deskripsek">
+              <p>
+                <q>Bagi bapak/ibu yang bertempat tinggal di daerah Passo, Poka, Waitatiri, Hative besar,
+                  Lateri, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Selasa jam 18.00 WIT.</q>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container deskripsek">
-      <p>
-        "Bagi bapak/ibu yang bertempat tinggal di daerah Passo, Poka, Waitatiri, Hative besar,
-        Lateri, dan sekitarnya dapat mengikuti ibadah di sektor ini, setiap hari Selasa jam 18.00 WIT."
-      </p>
-    </div>
   </div>
-
   <!-- isi -->
 
   <!-- footer -->
