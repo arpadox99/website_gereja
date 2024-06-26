@@ -92,7 +92,7 @@ h4 {
 }
 #loc {
   border-radius: 5%; /* rounded lokasi foto lokasi gereja*/
-  width: 100%; /* Mengatur lebar gambar menjadi 95% dari elemen induknya */
+  width: 100%; /* Mengatur lebar gambar menjadi 100% dari elemen induknya */
   height: 83%;
   padding-bottom: 5px;
 }
@@ -126,6 +126,9 @@ p {
   #church-div {
     margin-top: 30px;
     margin-bottom: 50px;
+  }
+  #loc {
+    height: 80%;
   }
   h3#pusat,
   h3#cabang {

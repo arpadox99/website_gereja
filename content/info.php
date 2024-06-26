@@ -64,7 +64,7 @@ require_once '../config/config.php';
   <!-- isi -->
   <div>
     <div id="info">
-      <img src="/img/Info/bninfo.png" class="mx-auto d-block img-fluid" id="info1">
+      <img src="../img/info/bninfo.png" class="mx-auto d-block img-fluid" id="info1">
     </div>
     <div class="container">
       <div class="row tabel">
@@ -126,7 +126,7 @@ require_once '../config/config.php';
     </div><br>
     <div>
       <div>
-        <img src="/img/Info/kontak.png" class="mx-auto d-block img-fluid" alt="info-kontak">
+        <img src="../img/info/kontak.png" class="mx-auto d-block img-fluid" alt="info-kontak">
       </div>
       <div class="container">
         <div class="d-flex justify-content-start align-items-start">
