@@ -21,8 +21,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
       <div class="container-xl d-flex justify-content-center align-items-center">
         <a class="navbar-brand fw-bolder" href="#">
-          <img src="../img/logo/gbi.png" width="50" height="50" alt="GBI">
-          <img src="../img/logo/ggm.png" width="50" height="50" alt="GGM">
+          <img src="../img/logo/gbi.png" width="50px" height="50px" alt="GBI">
+          <img src="../img/logo/ggm.png" width="50px" height="50px" alt="GGM">
         </a>
         <a class="navbar-brand fw-bolder">
           GOD'S GRACE <span class="lighttext">MINISTRY </span>
@@ -57,29 +57,680 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div>
-    <div id="media">
-      <img src="../img/media/media.jpg" class="mx-auto d-block img-fluid" alt="media1">
-      <img src="../img/media/media2.jpg" class="mx-auto d-block img-fluid" alt="media2">
-      <img src="../img/media/ibadahraya.jpg" class="mx-auto d-block img-fluid" alt="media3">
-      <img src="../img/media/perjamuankasih.jpg" class="mx-auto d-block img-fluid" alt="media4">
-      <img src="../img/media/pujiansektor.jpg" class="mx-auto d-block img-fluid" alt="media5">
-      <img src="../img/media/kids.jpg" class="mx-auto d-block img-fluid" alt="media6">
-      <img src="../img/media/ygsm.jpg" class="mx-auto d-block img-fluid" alt="media7">
-      <img src="../img/media/Pelayananan.jpg" class="mx-auto d-block img-fluid" alt="media8">
-      <img src="../img/media/gwt.jpg" class="mx-auto d-block img-fluid" alt="media9">
-      <img src="../img/media/penyerahananak.jpg" class="mx-auto d-block img-fluid" alt="media10">
-      <img src="../img/media/baptis.jpg" class="mx-auto d-block img-fluid" alt="media11">
-      <img src="../img/media/kalteng.jpg" class="mx-auto d-block img-fluid" alt="media12">
-      <img src="../img/media/waisai.jpg" class="mx-auto d-block img-fluid" alt="media13">
-      <img src="../img/media/kunjunganakhirtahun.jpg" class="mx-auto d-block img-fluid" alt="media14">
+  <div id="media">
+    <img src="../img/media/banner.jpg" class="mx-auto d-block img-fluid" alt="banner media">
+    <div class="container mt-4" id="ibadah raya - IR">
+      <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="10" aria-label="Slide 11"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/IR/1.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah raya">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/IR/11.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> IBADAH RAYA</h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
     </div>
+    <div class="container mt-4" id="perjamuan kasih - PK">
+      <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/PK/1.jpg" class="mx-auto d-block img-fluid w-100" alt="perjamuan kasih">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PK/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PK/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PK/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PK/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PK/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PK/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PK/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> PERJAMUAN KASIH </h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="pujian suara - PJS">
+      <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/PJS/1.jpg" class="mx-auto d-block img-fluid w-100" alt="pujian suara">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PJS/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PJS/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PJS/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PJS/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/PJS/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> PERSEMBAHAN PUJIAN SETIAP SEKTOR </h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="god grace kids - GGK">
+      <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/GGK/1.jpg" class="mx-auto d-block img-fluid w-100" alt="god grace kids">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GGK/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GGK/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GGK/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GGK/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GGK/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GGK/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> GOD'S GRACE KIDS </h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="youth grace ministry - YGSM">
+      <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="11" aria-label="Slide 12"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/YGSM/1.jpg" class="mx-auto d-block img-fluid w-100" alt="youth grace ministry">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/11.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/YGSM/12.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> YOUTH GRACE MINISTRY </h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="melayani - MLYN">
+      <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/MLYN/1.jpg" class="mx-auto d-block img-fluid w-100" alt="melayani">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/MLYN/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/MLYN/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/MLYN/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/MLYN/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/MLYN/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/MLYN/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> MINISTRIES </h3>
+          <P> <q>Talenta dan panggilan dari Tuhan yang dipakai untuk Kemuliaan Tuhan.</q> </P>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="grace worshipers training - GWT">
+      <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/GWT/1.jpg" class="mx-auto d-block img-fluid w-100" alt="grace worshipers training">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GWT/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GWT/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GWT/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GWT/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GWT/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GWT/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GWT/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GWT/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/GWT/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> GRACE WORSHIPERS TRAINING </h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="penyerahan anak - PA">
+      <img src="../img/media/PA/1.jpg" class="mx-auto d-block img-fluid w-100  border border-5 border-secondary" alt="banner penyerahan ank">
+    </div>
+    <div class="container mt-4" id="baptisan air - BA">
+      <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="11" aria-label="Slide 12"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="12" aria-label="Slide 13"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="13" aria-label="Slide 14"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="14" aria-label="Slide 15"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="15" aria-label="Slide 16"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="16" aria-label="Slide 17"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="17" aria-label="Slide 16"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="18" aria-label="Slide 19"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/BA/1.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/11.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/12.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/13.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/14.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/15.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/16.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/17.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/18.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/19.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> BAPTISAN AIR </h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="worship mision manado - MIS-MANADO">
+      <img src="../img/media/Mis-Manado/Mis-Manado.jpg" class="mx-auto d-block img-fluid w-100  border border-5 border-secondary" alt="worship mision manado">
+    </div>
+    <div class="container mt-4" id="worship mision kalteng - MIS-KALTENG">
+      <div id="carousel10" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="10" aria-label="Slide 11"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/1.jpg" class="mx-auto d-block img-fluid w-100" alt="worship mision kalteng">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Kalteng/11.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> WORSHIP MISSION KALTENG </h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel10" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel10" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="worship mision waisai - MIS-WAISAI">
+      <div id="carousel11" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="11" aria-label="Slide 12"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="12" aria-label="Slide 13"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="13" aria-label="Slide 14"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="14" aria-label="Slide 15"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="15" aria-label="Slide 16"></button>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="16" aria-label="Slide 17"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/1.JPG" class="mx-auto d-block img-fluid w-100" alt="worship mision waisai">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/11.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/12.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/13.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/14.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/15.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/16.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/Mis-Waisai/17.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> WORSHIP MISSION WAISAI </h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel11" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel11" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="kunjungan akhir tahun - KAT">
+      <div id="carousel12" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/KAT/1.jpg" class="mx-auto d-block img-fluid w-100" alt="kunjungan akhir tahun">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/KAT/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/KAT/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/KAT/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/KAT/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/KAT/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/KAT/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/KAT/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/KAT/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/KAT/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> KUNJUNGAN AKHIR TAHUN </h3>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel12" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel12" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div><br>
   </div>
   <!-- isi -->
 
   <!-- Button to Top -->
   <div id="goTop">
-    <a href="#" id="goTopBtn"><i class="fa fa-chevron-up" id="btt"></i></a>
+    <a href="#" id="goTopBtn"><i class="fa fa-chevron-up" id="btt" style="margin-bottom: 5px;"></i></a>
   </div>
   <!-- Button to Top -->
 
@@ -110,7 +761,7 @@
   <!-- footer -->
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="../assets/js/btt.js"></script>
+  <script src="../assets/js/bttmedia.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
   </script>
 </body>
