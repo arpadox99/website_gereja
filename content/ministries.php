@@ -123,7 +123,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="row">
-                <img src="../img/Ministries/usher.jpg" alt="Usher Kolektan">
+                <img src="/img/Ministries/usher.JPG" alt="Usher Kolektan">
               </div>
             </div>
             <div class="col-md-6">
