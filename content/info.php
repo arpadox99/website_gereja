@@ -64,7 +64,7 @@ require_once '../config/config.php';
   <!-- isi -->
   <div>
     <div id="info">
-      <img src="/img/info/bninfo.png" class="mx-auto d-block img-fluid" id="info1">
+      <img src="/img/Info/bninfo.png" class="mx-auto d-block img-fluid" id="info1">
     </div>
     <div class="container">
       <div class="row tabel">
