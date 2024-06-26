@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
 
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="img/logo/gbi.png" />
+  <link rel="icon" href="img/Logo/gbi.png" />
 </head>
 
 <body>
@@ -21,8 +21,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
       <div class="container-xl d-flex justify-content-center align-items-center">
         <a class="navbar-brand fw-bolder" href="#">
-          <img draggable="false" src="img/logo/gbi.png" width="50" height="50" alt="GBI">
-          <img draggable="false" src="img/logo/ggm.png" width="50" height="50" alt="GGM">
+          <img draggable="false" src="img/Logo/gbi.png" width="50" height="50" alt="GBI">
+          <img draggable="false" src="img/Logo/ggm.png" width="50" height="50" alt="GGM">
         </a>
         <a class="navbar-brand fw-bolder">
           GOD'S GRACE <span class="lighttext">MINISTRY </span>
