@@ -126,7 +126,7 @@ require_once '../config/config.php';
     </div><br>
     <div>
       <div>
-        <img src="../img/info/kontak.png" class="mx-auto d-block img-fluid" alt="info-kontak">
+        <img src="/img/Info/kontak.png" class="mx-auto d-block img-fluid" alt="info-kontak">
       </div>
       <div class="container">
         <div class="d-flex justify-content-start align-items-start">
