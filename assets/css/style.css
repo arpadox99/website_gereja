@@ -18,9 +18,11 @@ html {
 }
 
 /* ukuran navbar saat layar */
-@media (max-width: 992px) {
-  .navbar-nav {
-    padding-left: 0; /* Adjust this value to move items further to the right */
+@media (max-width: 430px) {
+  .navbar-brand img {
+    width: 55px; /* Adjust this size as needed */
+    height: auto; /* Adjust this size as needed */
+    margin-right: 10px;
   }
 }
 
@@ -142,7 +144,7 @@ p {
   display: inline-flex;
   align-items: center;
   padding: 5px 15px;
-  margin-top: 7px;
+  margin-top: 15px;
   margin-bottom: 15px;
   color: black;
   background-color: rgba(245, 245, 245, 0.85);
@@ -156,7 +158,10 @@ p {
   height: 30px;
 }
 .possosmed {
-  margin: 0 3%;
+  margin-left: 70px;
+}
+.possosmed a:hover {
+  color: #aa74b2;
 }
 #socialmediagembala {
   background: linear-gradient(130deg, #032554, #032554 65%, #aa74b2);
@@ -337,7 +342,7 @@ img#IPSpage {
     width: auto; /* lebar after mobile */
     height: auto; /* Tinggi menyesuaikan */
   }
-  img#IPSpage{
+  img#IPSpage {
     border-radius: 10%;
     width: auto; /* lebar after mobile */
     height: 200px; /* Tinggi menyesuaikan */
@@ -1077,11 +1082,20 @@ p.fontjs {
 }
 
 /* css carousel slider */
+.carousel {
+  border: rgb(255, 255, 255, 0.5) 5px solid;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(138, 43, 226, 0.5);
+  background-color: rgba(138, 43, 226);
   padding: 20px;
   border-radius: 50%;
+}
+.carousel-control-prev {
+  left: -5%;
+}
+.carousel-control-next {
+  right: -5%;
 }
 .carousel .carousel-indicators button {
   background-color: rgba(138, 43, 226, 0.5);
@@ -1090,13 +1104,47 @@ p.fontjs {
   background-color: rgba(138, 43, 226);
 }
 .carousel-item {
-  transition: transform 2.5s ease, opacity 0.5s ease-out;
+  transition: transform s ease, opacity 0.5s ease-out;
 }
+.carousel-caption {
+  background-color: rgba(138, 43, 226, 0.5);
+  margin-bottom: 15px; /* Menambahkan margin bawah sebesar 20px untuk memberi ruang antara caption dan tepi bawah */
+  padding: 5px; /* Menambahkan padding (ruang dalam) sebesar 5px di sekitar konten caption */
+  left: 50%; /* Menempatkan elemen caption 50% dari kiri elemen induknya (carousel) */
+  transform: translateX(
+    -50%
+  ); /* Menggeser elemen caption ke kiri sebesar 50% dari lebarnya sendiri, sehingga berada tepat di tengah secara horizontal */
+  width: 800px; /* Menetapkan lebar caption menjadi 600px */
+  text-align: center; /* Mengatur teks di dalam caption agar berada di tengah secara horizontal */
+  border-radius: 10px;
+}
+.carousel-caption p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 /* ukuran kontak ygsm saat layar hp besar*/
 @media (max-width: 768px) {
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     padding: 10px;
+  }
+  .carousel-control-prev {
+    left: 0;
+  }
+  .carousel-control-next {
+    right: 0;
+  }
+  .carousel-caption {
+    width: 350px;
+    margin-bottom: 10px;
+  }
+  .carousel-caption h3 {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  .carousel-caption p {
+    font-size: 0.6rem;
   }
 }
 /* ukuran kontak ygsm saat layar hp kecil*/
@@ -1104,5 +1152,23 @@ p.fontjs {
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     padding: 10px;
+  }
+  .carousel-caption {
+    padding: 3px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .carousel-caption h3 {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  .carousel-caption p {
+    font-size: 0.5rem;
+  }
+  .carousel-control-prev {
+    left: 0;
+  }
+  .carousel-control-next {
+    right: 0;
   }
 }
