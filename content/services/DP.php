@@ -64,7 +64,7 @@
     </div>
     <div class="container">
       <article>
-        <p class="serv">
+        <p class="serv" id="doapuasa">
           Doa Puasa dilaksanakan setiap hari Selasa oleh para pendoa syafaat yang mendoakan dunia,
           bangsa dan negara, gereja, serta jiwa-jiwa bagi kerajaan Allah.
         </p>
