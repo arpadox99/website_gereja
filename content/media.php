@@ -424,7 +424,16 @@
       </div>
     </div>
     <div class="container mt-4" id="penyerahan anak - PA">
-      <img src="../img/media/PA/1.jpg" class="mx-auto d-block img-fluid w-100  border border-5 border-secondary" alt="banner penyerahan ank">
+      <div id="carousel10" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/media/PA/1.jpg" class="mx-auto d-block img-fluid w-100  border border-5 border-secondary" alt="banner penyerahan ank">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> PENYERAHAN ANAK </h3>
+        </div>
+      </div>
     </div>
     <div class="container mt-4" id="baptisan air - BA">
       <div id="carousel9" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
@@ -519,8 +528,18 @@
         </button>
       </div>
     </div>
+
     <div class="container mt-4" id="worship mision manado - MIS-MANADO">
-      <img src="../img/media/Mis-Manado/Mis-Manado.jpg" class="mx-auto d-block img-fluid w-100  border border-5 border-secondary" alt="worship mision manado">
+      <div id="carousel10" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/media/Mis-Manado/Mis-Manado.jpg" class="mx-auto d-block img-fluid w-100  border border-5 border-secondary" alt="worship mision manado">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> WORSHIP MISSION MANADO </h3>
+        </div>
+      </div>
     </div>
     <div class="container mt-4" id="worship mision kalteng - MIS-KALTENG">
       <div id="carousel10" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
