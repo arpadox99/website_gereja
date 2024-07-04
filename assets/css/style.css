@@ -349,10 +349,13 @@ img#IPSpage {
     height: auto; /* Tinggi menyesuaikan */
   }
   .text-serv {
-    padding-bottom: 0;
+    padding-bottom: 10px;
   }
   .text-serv2 {
-    padding-bottom: 0;
+    padding-bottom: 10px;
+  }
+  .text-serv3 {
+    padding-bottom: 20px;
   }
   a#text h3 {
     margin-top: 15px;
