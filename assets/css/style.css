@@ -138,6 +138,12 @@ p {
     height: 70%;
   }
 }
+/* ukuran info saat layar hp kecil*/
+@media (max-width: 430px) {
+  h2#misi {
+    margin-top: 25px;
+  }
+}
 
 /* social gembala */
 
@@ -179,6 +185,11 @@ p {
   }
   .social-icon img {
     height: 15px;
+  }
+} /* ukuran Gembala saat layar */
+@media (max-width: 360px) {
+  .possosmed {
+    margin-left: 40px;
   }
 }
 /* --- */
@@ -240,6 +251,18 @@ p#IR {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
+/* ukuran service saat layar */
+@media (min-width: 1280px) and (max-width: 1300px) {
+  h2.kop {
+    font-size: 3rem;
+    margin-top: 80px;
+  }
+  p#IR {
+    margin-top: 80px;
+    text-indent: 30px;
+    font-size: 2.6rem;
+  }
+}
 /* ukuran service saat layar */
 @media (max-width: 768px) {
   .ibadah-raya {
@@ -327,8 +350,8 @@ img#IPSpage {
   }
   .text-serv {
     padding-bottom: 0;
-  }
-  .text-serv2 {
+    .text-serv2 {
+    }
     padding-bottom: 0;
   }
   a#text h3 {
@@ -501,11 +524,16 @@ article h4 {
   text-align: justify;
 }
 
+@media (min-width: 1280px) and (max-width: 1300px) {
+  img#pembinasektor {
+    width: auto;
+    height: 700px;
+  }
+}
 @media (max-width: 768px) {
   #umum {
     font-size: 2rem;
   }
-
   img#pembinasektor {
     margin: auto;
     width: 70%;
@@ -631,6 +659,38 @@ article h4 {
   font-weight: bold;
 }
 
+/* ukuran kontak ygsm saat layar hp besar*/
+@media (min-width: 1280px) and (max-width: 1300px) {
+  .contactwaygsm {
+    margin-top: -265px;
+    margin-left: 230px;
+    margin-bottom: 0;
+  }
+  #hrfWA {
+    font-size: 1.1rem;
+  }
+  .contactwaygsm .waygsm-button {
+    width: 390px;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  .contactwaygsm .IconWhatsappygsm {
+    margin-right: 5px;
+  }
+  .contactwaygsm .IconWhatsappygsm img {
+    height: 45px;
+  }
+  .sosmedygsm {
+    margin-top: -100px;
+    margin-left: 230px;
+  }
+  .sosmedygsm #iconYGSM {
+    height: 30px;
+  }
+  #hurufYGSM {
+    font-size: 0.7rem;
+  }
+}
 /* ukuran kontak ygsm saat layar hp besar*/
 @media (max-width: 768px) {
   .contactwaygsm {

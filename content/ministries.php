@@ -98,7 +98,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="row">
-                <img src="../img/Ministries/praise.png" alt="Praise & Worship">
+                <img src="../img/Ministries/praise.jpg" alt="Praise & Worship">
               </div>
             </div>
             <div class="col-md-6">

@@ -81,7 +81,7 @@
           </div>
         </div>
         <div class="col-md-6 vimi">
-          <h2>Misi</h2>
+          <h2 id="misi">Misi</h2>
           <div class="container">
             <div class="card-body">
               <p class="card-text">

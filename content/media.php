@@ -528,7 +528,6 @@
         </button>
       </div>
     </div>
-
     <div class="container mt-4" id="worship mision manado - MIS-MANADO">
       <div id="carousel10" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-inner">
@@ -593,6 +592,7 @@
         </div>
         <div class="carousel-caption d-md-block">
           <h3> WORSHIP MISSION KALTENG </h3>
+          <p> Kabupaten Tamiyanglayang</p>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel10" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -740,6 +740,147 @@
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carousel12" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-4" id="ibadah sektor - IS">
+      <div id="carousel13" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="11" aria-label="Slide 12"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="12" aria-label="Slide 13"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="13" aria-label="Slide 14"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="14" aria-label="Slide 15"></button>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="15" aria-label="Slide 16"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/media/IS/1.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/2.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Debora Sion </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/3.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Imanuel </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/4.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Imanuel </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/5.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Imanuel </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/6.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Joyfull </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/7.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Joyfull </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/8.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Kalvary </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/9.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Kalvary </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/10.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Kalvary </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/11.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Nusaniwe </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/12.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Rajawali </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/13.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Rajawali </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/14.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Rajawali </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/15.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Victory </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/media/IS/16.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah sektor">
+            <div class="carousel-caption d-md-block">
+              <h3> IBADAH SEKTOR </h3>
+              <p> Sektor Victory </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel13" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel13" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
