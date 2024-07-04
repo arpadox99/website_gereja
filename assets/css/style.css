@@ -350,13 +350,14 @@ img#IPSpage {
   }
   .text-serv {
     padding-bottom: 0;
-    .text-serv2 {
-    }
+  }
+  .text-serv2 {
     padding-bottom: 0;
   }
   a#text h3 {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 0.6rem;
+    margin-bottom: 5px;
   }
   img#SMpage,
   img#DPpage,
