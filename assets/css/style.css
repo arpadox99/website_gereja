@@ -1134,12 +1134,12 @@ span#jsspan {
 
 p.fontjs {
   font-family: "Lexend Deca";
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 /* ukuran ministries js saat layar */
 @media (min-width: 1280px) and (max-width: 1300px) {
   p.fontjs {
-    font-size: 1.88rem;
+    font-size: 2rem;
   }
 }
 /* MInistry JS end */
