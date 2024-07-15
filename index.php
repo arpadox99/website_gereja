@@ -19,7 +19,7 @@
   <!-- navBar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
-      <div class="container-xl d-flex justify-content-center align-items-center">
+      <div class="container-xl d-flex justify-content-between align-items-center">
         <a class="navbar-brand fw-bolder" href="#">
           <img draggable="false" src="img/Logo/gbi.png" width="50" height="50" alt="GBI">
           <img draggable="false" src="img/Logo/ggm.png" width="50" height="50" alt="GGM">
@@ -33,9 +33,9 @@
           </button>
         </div>
         <div class="collapse navbar-collapse" id="navbarsExample07XL">
-          <ul class="navbar-nav ml-auto col-lg-10 justify-content-center">
+          <ul class="navbar-nav col-lg-10 justify-content-center">
             <li class="nav-item px-3">
-              <a class="nav-link active" id="home" aria-current="page" href="#banner"> Home </a>
+              <a class="nav-link active" aria-current="page" href="#banner"> Home </a>
             </li>
             <li class="nav-item px-3">
               <a class="nav-link" href="content/services.php"> Services </a>
@@ -48,6 +48,13 @@
             </li>
             <li class="nav-item px-3">
               <a class="nav-link" href="content/media.php"> Media </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="./login/login.php">
+                <i class="fas fa-sign-in-alt"></i> Login
+              </a>
             </li>
           </ul>
         </div>

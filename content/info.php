@@ -15,7 +15,6 @@ require_once '../config/config.php';
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="icon" href="../img/Logo/gbi.png" />
 </head>
@@ -40,19 +39,26 @@ require_once '../config/config.php';
         <div class="collapse navbar-collapse" id="navbarsExample07XL">
           <ul class="navbar-nav ml-auto col-lg-10 justify-content-center">
             <li class="nav-item px-3">
-              <a class="nav-link" id="home" aria-current="page" href="../index.php"> Home </a>
+              <a class="nav-link" href="../index.php"> Home </a>
             </li>
             <li class="nav-item px-3">
               <a class="nav-link" href="services.php"> Services </a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link active" href="#info"> Info </a>
+              <a class="nav-link active" aria-current="page" href="#info"> Info </a>
             </li>
             <li class="nav-item px-3">
               <a class="nav-link" href="ministries.php"> Ministries </a>
             </li>
             <li class="nav-item px-3">
               <a class="nav-link" href="media.php"> Media </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="../login/login.php">
+                <i class="fas fa-sign-in-alt"></i> Login
+              </a>
             </li>
           </ul>
         </div>
@@ -178,6 +184,7 @@ require_once '../config/config.php';
   </div>
   <!-- footer -->
 
+  <script src="https://kit.fontawesome.com/08f3c3a570.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
   </script>
