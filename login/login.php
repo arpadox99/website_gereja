@@ -72,6 +72,7 @@ require_once '../config/config.php';
   <div class="container">
     <div class="login-page">
       <div class="form">
+        <!-- Form Registrasi -->
         <form class="register-form" action="user_simpan.php" method="POST">
           <h2><i class="bi bi-lock-fill"></i> Register</h2>
           <div class="form-group">
@@ -82,8 +83,9 @@ require_once '../config/config.php';
             <p class="message">Already registered?<a href="#">Sign In</a></p>
           </div>
         </form>
+        <!-- Form Login -->
         <form class="login-form" method="POST">
-          <h2><i class="bi bi-lock-fill"></i> Login</h2>
+          <h2><i class="bi bi-lock-fill"></i> Admin LogIn </h2>
           <div class="form-group">
             <input type="username" name="username" placeholder="Username" required="" autocomplete="off">
             <input type="password" name="password" placeholder="Password" required="" autocomplete="off">
@@ -120,18 +122,18 @@ require_once '../config/config.php';
           if (password_verify($password, $data['password'])) {
             // password benar, buat session
             $_SESSION['user-websitegereja'] = $data['username'];
-            $_SESSION['nama-websitegereja'] = $data['full_name'];
+            $_SESSION['role-websitegereja'] = $data['role'];
 
             // jika role adalah admin, tampilkan pesan selamat datang admin
             if ($data['role'] == 'ADMIN') {
               echo "<script>
               alert('Halo admin');
-              window.location.href = 'login.php';
+              window.location.href = '../admin/index.php';
             </script>";
             } else {
               // jika role bukan admin, tampilkan pesan selamat datang pengguna biasa
               echo "<script>
-              alert('hanya admin');
+              alert('anda bkn admin');
               window.location.href = 'login.php';
             </script>";
             }
@@ -184,6 +186,7 @@ require_once '../config/config.php';
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://kit.fontawesome.com/08f3c3a570.js" crossorigin="anonymous"></script>
   <script src="../assets/js/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.2/dist/sweetalert2.all.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
   </script>
 </body>
