@@ -19,7 +19,7 @@ if (empty($_SESSION['user-websitegereja'])) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Dashboard - Admin Gereja</title>
+        <title> Dashboard - Admin Gereja </title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -99,7 +99,7 @@ if (empty($_SESSION['user-websitegereja'])) {
                         </div>
                     </div>
                     <div class="sb-sidenav-footer py-2 px-3">
-                        <div class="small"> <?= $role ?> Logged in as:</div>
+                        <div class="small"> <?= $role ?> Logged in as: </div>
                         <p style="text-transform: uppercase;"> <?= $user ?> </p>
                     </div>
                 </nav>

@@ -20,7 +20,6 @@ $tipe = end($step2);
 if (empty($nama_file) || empty($role)) {
     echo "<script>
             alert('Gambar harap Dipilih!!');
-            
             window.history.back();
         </script>";
 } else {
@@ -32,19 +31,19 @@ if (empty($nama_file) || empty($role)) {
 
     if ($jumlah > 0) {
         echo "<script>
-            alert('Data Sudah Ada');
-          window.history.back();
+                alert('Data Sudah Ada');
+                window.history.back();
             </script>";
     } else if (!in_array($tipe, ['png', 'jpg', 'jpeg'])) {
         echo "<script>
-                    alert('File tidak support!!');
-          window.history.back();
-                </script>";
+                alert('File tidak support!!');
+                window.history.back();
+            </script>";
     } else if ($size_file >= 3000000) {
         echo "<script>
-                    alert('File tidak boleh > 3MB!!');
-          window.history.back();
-                </script>";
+                alert('File tidak boleh > 3MB!!');
+                window.history.back();
+            </script>";
     } else {
         // Prepare SQL statement for insertion
         $sql = "INSERT INTO slider (gambar_slider, judul_slider, deskripsi_slider, role) VALUES (:gambar_slider, :judul_slider, :deskripsi_slider, :role)";
@@ -63,8 +62,8 @@ if (empty($nama_file) || empty($role)) {
         move_uploaded_file($tmp_file, "../img/img_upload/" . $nama_file);
 
         echo "<script>
-                    alert('Gambar Berhasil di Upload!!');
-                    window.location.href = 'index.php?page=media';
-                </script>";
+                alert('Gambar Berhasil di Upload!!');
+                window.location.href = 'index.php?page=media';
+            </script>";
     }
 }

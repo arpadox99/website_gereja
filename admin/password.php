@@ -17,31 +17,29 @@
 </head>
 
 <body>
-    <main>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="card shadow-lg border-0 rounded-lg mt-5">
-                        <div class="card-header text-bg-danger">
-                            <h3 class="text-center text-light fw-bold my-4">Change Password</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="small mb-3 text-muted">Enter username.</div>
-                            <form action="index.php?page=passwordcheck" method="POST">
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="username" name="username" type="text" placeholder="name@example.com" />
-                                    <label for="username">Username</label>
-                                </div>
-                                <div class="text-center mt-4 mb-0">
-                                    <button class="btn btn-primary" type="submit">Reset Password</button>
-                                </div>
-                            </form>
-                        </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                    <div class="card-header text-bg-danger">
+                        <h3 class="text-center text-light fw-bold my-4"> Change Password </h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="small mb-3 text-muted"> Enter username. </div>
+                        <form action="index.php?page=passwordcheck" method="POST">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="username" name="username" type="text" placeholder="name@example.com" />
+                                <label for="username"> Username </label>
+                            </div>
+                            <div class="text-center mt-4 mb-0">
+                                <button class="btn btn-primary" type="submit"> Reset Password </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 </body>
 
 </html>

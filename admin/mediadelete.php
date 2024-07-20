@@ -1,4 +1,5 @@
 <?php
+
 if (!isset($_GET['id_gambar'])) {
   echo "<script>
     window.location.href = 'index.php?page=media';

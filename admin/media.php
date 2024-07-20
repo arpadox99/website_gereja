@@ -1,7 +1,7 @@
 <div class="container-fluid px-4">
-  <h1 class="mt-4">IMAGE SLIDER</h1>
+  <h1 class="mt-4"> IMAGE SLIDER </h1>
   <ol class="breadcrumb mb-4">
-    <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+    <li class="breadcrumb-item"><a href="index.php"> Dashboard </a></li>
     <li class="breadcrumb-item active"> Media </li>
   </ol>
   <div class="card mb-4">
@@ -16,7 +16,8 @@
             <!-- Button trigger modal -->
             <a href="index.php?page=mediaadd">
               <button type="button" class="btn btn-primary" style="margin-bottom: 15px;">
-                <i class="fas fa-plus"></i> Input Media
+                <i class="fas fa-plus"></i>
+                Input Media
               </button>
             </a>
             <!-- Button trigger modal -->
@@ -36,8 +37,8 @@
             <th> JUDUL </th>
             <th> DESKRIPSI </th>
             <th> ROLE </th>
-            <th> DELETE </th>
             <th> EDIT </th>
+            <th> DELETE </th>
           </tr>
         </thead>
         <tbody>
@@ -66,8 +67,6 @@
           }
           ?>
         </tbody>
-
-
       </table>
     </div>
   </div>
@@ -84,7 +83,7 @@
         <form action="index.php?page=simpanjadwal" method="POST">
           <div class="form-floating mb-3">
             <input type="text" class="form-control" name="hari_tgl" placeholder="Masukkan Hari" required="" autocomplete="off">
-            <label for="floatingInput"> HARI</label>
+            <label for="floatingInput"> HARI </label>
           </div>
           <div class="form-floating mb-3">
             <input type="text" class="form-control" name="waktu_ibadah" placeholder="Masukkan Waktu Ibadah" required="" autocomplete="off">
@@ -99,8 +98,8 @@
             <label for="floatingInput"> LOKASI IBADAH </label>
           </div>
           <div class="form-group">
-            <button type="submit" class="btn btn-info">Simpan</button>
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-info"> Simpan </button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Close </button>
           </div>
         </form>
       </div>
@@ -118,20 +117,20 @@
       </div>
       <div class="modal-body">
         <ul>
-          <li>1. Ibadah Raya</li>
-          <li>2. Perjamuan Kasih</li>
-          <li>3. Persembahan Pujian</li>
-          <li>4. Ibadah Sektor</li>
-          <li>5. God's Grace Kids</li>
-          <li>6. YGSM</li>
-          <li>7. Ministries</li>
-          <li>8. Grace Worshipers Training</li>
-          <li>9. Penyerahan Anak</li>
-          <li>10. Baptisan Air</li>
-          <li>11. Worship Mission Manado</li>
-          <li>12. Worship Mission Kalteng</li>
-          <li>13. Worship Mission Waisai</li>
-          <li>14. Kunjungan Akhir Tahun</li>
+          <li> 1. Ibadah Raya </li>
+          <li> 2. Perjamuan Kasih </li>
+          <li> 3. Persembahan Pujian </li>
+          <li> 4. Ibadah Sektor </li>
+          <li> 5. God's Grace Kids </li>
+          <li> 6. YGSM </li>
+          <li> 7. Ministries </li>
+          <li> 8. Grace Worshipers Training </li>
+          <li> 9. Penyerahan Anak </li>
+          <li> 10. Baptisan Air </li>
+          <li> 11. Worship Mission Manado </li>
+          <li> 12. Worship Mission Kalteng </li>
+          <li> 13. Worship Mission Waisai </li>
+          <li> 14. Kunjungan Akhir Tahun </li>
         </ul>
       </div>
       <div class="modal-footer">

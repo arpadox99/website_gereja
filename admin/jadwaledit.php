@@ -40,7 +40,7 @@ if (!$data) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JADWAL</title>
+    <title> JADWAL </title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
 
@@ -49,28 +49,28 @@ if (!$data) {
       <div>
         <div class="body_1">
           <div class="bs-example"><br>
-            <h1>EDIT JADWAL IBADAH</h1><br>
+            <h1> EDIT JADWAL IBADAH </h1><br>
             <form class="form-horizontal" action="index.php?page=jadwalupdate" method="POST">
               <div class="form-group" style="margin-top: 5px;">
-                <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="Hari">Hari:</label>
+                <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="Hari"> Hari : </label>
                 <div class="col-xs-9">
                   <input type="text" class="form-control" value="<?= $data['hari_tgl'] ?>" name="hari_tgl" placeholder="Masukkan Hari" required="" autocomplete="off">
                 </div>
               </div>
               <div class="form-group" style="margin-top: 5px;">
-                <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="waktu_ibadah">Waktu Ibadah:</label>
+                <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="waktu_ibadah"> Waktu Ibadah : </label>
                 <div class="col-xs-9">
                   <input type="text" class="form-control" value="<?= $data['waktu_ibadah'] ?>" name="waktu_ibadah" placeholder="Masukkan Waktu Ibadah" required="" autocomplete="off">
                 </div>
               </div>
               <div class="form-group" style="margin-top: 5px;">
-                <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="jenis_keg">Jenis Ibadah:</label>
+                <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="jenis_keg"> Jenis Ibadah : </label>
                 <div class="col-xs-9">
                   <input type="text" class="form-control" value="<?= $data['jenis_keg'] ?>" name="jenis_keg" placeholder="Masukkan Jenis Ibadah" required="" autocomplete="off">
                 </div>
               </div>
               <div class="form-group" style="margin-top: 5px;">
-                <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="lokasi_ibadah">Lokasi Ibadah:</label>
+                <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="lokasi_ibadah"> Lokasi Ibadah : </label>
                 <div class="col-xs-9">
                   <input type="text" class="form-control" value="<?= $data['lokasi_ibadah'] ?>" name="lokasi_ibadah" placeholder="Masukkan Lokasi Ibadah" required="" autocomplete="off">
                 </div>

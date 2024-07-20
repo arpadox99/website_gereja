@@ -1,7 +1,7 @@
 <div class="container-fluid px-4">
-    <h1 class="mt-4">JADWAL IBADAH</h1>
+    <h1 class="mt-4"> JADWAL IBADAH </h1>
     <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+        <li class="breadcrumb-item"><a href="index.php"> Dashboard </a></li>
         <li class="breadcrumb-item active"> Info </li>
     </ol>
     <div class="card mb-4">
@@ -68,7 +68,7 @@
                 <form action="index.php?page=simpanjadwal" method="POST">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" name="hari_tgl" placeholder="Masukkan Hari" required="" autocomplete="off">
-                        <label for="floatingInput"> HARI</label>
+                        <label for="floatingInput"> HARI </label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" name="waktu_ibadah" placeholder="Masukkan Waktu Ibadah" required="" autocomplete="off">

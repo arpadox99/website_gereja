@@ -1,9 +1,6 @@
 <?php
-session_start();
-require_once '../config/config.php';
-?>
 
-<?php
+
 //filter
 // Menyaring dan menyanitasi input
 $username = htmlspecialchars($_POST['username'], ENT_QUOTES, 'UTF-8');
@@ -53,4 +50,3 @@ if (empty($username) || empty($nama) || empty($password) || empty($role)) {
 				</script>";
   }
 }
-?>

@@ -1,6 +1,4 @@
 <?php
-// Mengambil konfigurasi dari file config.php
-require_once '../config/config.php';
 
 // Menangkap dan menyaring input POST dari formulirs
 // $id_jadwal = filter_var($_POST['id_jadwal'], FILTER_SANITIZE_STRING);
@@ -13,9 +11,9 @@ $lokasi_ibadah = filter_var($_POST['lokasi_ibadah'], FILTER_SANITIZE_STRING);
 if (empty($hari_tgl) || empty($waktu_ibadah) || empty($jenis_keg) || empty($lokasi_ibadah)) {
   // Jika ada input yang kosong, tampilkan pesan peringatan dan kembalikan ke halaman jadwal
   echo "<script>
-            alert('Data Tidak Boleh Kosong');
-            window.location.href = 'index.php?page=jadwal';
-          </script>";
+          alert('Data Tidak Boleh Kosong');
+          window.location.href = 'index.php?page=jadwal';
+      </script>";
 } else {
   // Jika semua input terisi, lakukan pembaruan data ke database
   try {
@@ -37,9 +35,9 @@ if (empty($hari_tgl) || empty($waktu_ibadah) || empty($jenis_keg) || empty($loka
 
     // Menampilkan pesan sukses dan kembali ke halaman jadwal
     echo "<script>
-                alert('Data Berhasil Diubah');
-                window.location.href = 'index.php?page=jadwal';
-              </script>";
+            alert('Data Berhasil Diubah');
+            window.location.href = 'index.php?page=jadwal';
+        </script>";
   } catch (PDOException $e) {
     // Menangkap dan menampilkan pesan error jika terjadi kesalahan pada eksekusi SQL
     echo "Error: " . $e->getMessage();

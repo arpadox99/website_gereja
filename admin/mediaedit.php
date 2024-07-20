@@ -22,7 +22,6 @@ function handleInvalidIdGambar()
 }
 
 // Cek koneksi dan inisialisasi PDO, Jika telah menginisialisasi $con sebelumnya
-
 // Menggunakan prepared statements untuk keamanan
 $stmt = $con->prepare("SELECT * FROM slider WHERE id_gambar = :id_gambar");
 $stmt->bindParam(':id_gambar', $id_gambar, PDO::PARAM_INT);
@@ -48,7 +47,7 @@ if (!$data) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEDIA</title>
+    <title> MEDIA </title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
 
@@ -64,7 +63,7 @@ if (!$data) {
         <div class="col-lg-7">
           <div class="card shadow-lg border-0 rounded-lg mt-5">
             <div class="card-header text-bg-info">
-              <h3 class="text-center fw-bold my-3">EDIT GAMBAR SLIDER</h3>
+              <h3 class="text-center fw-bold my-3"> EDIT GAMBAR SLIDER </h3>
             </div>
             <div class="card-body">
               <form class="media-form" action="index.php?page=mediaupdate" method="POST" enctype="multipart/form-data">
@@ -73,7 +72,7 @@ if (!$data) {
                     <div class="col-md-12">
                       <div class="form-floating mb-3 mb-md-0">
                         <input class="form-control" type="text" name="judul_slider" value="<?= htmlspecialchars($data['judul_slider']) ?>" placeholder="" autocomplete="off">
-                        <label for="InputDeskSlider">Caption Slider</label>
+                        <label for="InputDeskSlider"> Caption Slider </label>
                       </div>
                     </div>
                   </div>
@@ -81,7 +80,7 @@ if (!$data) {
                     <div class="col-md-12">
                       <div class="form-floating mb-3 mb-md-0">
                         <input class="form-control" type="text" name="deskripsi_slider" value="<?= htmlspecialchars($data['deskripsi_slider']) ?>" placeholder="" autocomplete="off">
-                        <label for="InputDeskSlider">Deskripsi Slider</label>
+                        <label for="InputDeskSlider"> Deskripsi Slider </label>
                       </div>
                     </div>
                   </div>
@@ -89,20 +88,20 @@ if (!$data) {
                     <div class="col-md-12">
                       <div class="input-group">
                         <select class="form-select" id="Role" name="role" aria-label="Example select with button addon">
-                          <option value="1" <?= ($role == 1) ? 'selected' : '' ?>> 1. Ibadah Raya</option>
-                          <option value="2" <?= ($role == 2) ? 'selected' : '' ?>> 2. Perjamuan Kasih</option>
-                          <option value="3" <?= ($role == 3) ? 'selected' : '' ?>> 3. Sektor</option>
-                          <option value="4" <?= ($role == 4) ? 'selected' : '' ?>> 4. Ibadah Sektor</option>
-                          <option value="5" <?= ($role == 5) ? 'selected' : '' ?>> 5. God's Grace Kids</option>
-                          <option value="6" <?= ($role == 6) ? 'selected' : '' ?>> 6. YGSM</option>
-                          <option value="7" <?= ($role == 7) ? 'selected' : '' ?>> 7. Ministries</option>
-                          <option value="8" <?= ($role == 8) ? 'selected' : '' ?>> 8. Grace Worshipers Training</option>
-                          <option value="9" <?= ($role == 9) ? 'selected' : '' ?>> 9. Penyerahan Anak</option>
-                          <option value="10" <?= ($role == 10) ? 'selected' : '' ?>> 10. Baptisan Air</option>
-                          <option value="11" <?= ($role == 11) ? 'selected' : '' ?>> 11. Worship Mission Manado</option>
-                          <option value="12" <?= ($role == 12) ? 'selected' : '' ?>> 12. Worship Mission Kalteng</option>
-                          <option value="13" <?= ($role == 13) ? 'selected' : '' ?>> 13. Worship Mission Waisai</option>
-                          <option value="14" <?= ($role == 14) ? 'selected' : '' ?>> 14. Kunjungan Akhir Tahun</option>
+                          <option value="1" <?= ($role == 1) ? 'selected' : '' ?>> 1. Ibadah Raya </option>
+                          <option value="2" <?= ($role == 2) ? 'selected' : '' ?>> 2. Perjamuan Kasih </option>
+                          <option value="3" <?= ($role == 3) ? 'selected' : '' ?>> 3. Sektor </option>
+                          <option value="4" <?= ($role == 4) ? 'selected' : '' ?>> 4. Ibadah Sektor </option>
+                          <option value="5" <?= ($role == 5) ? 'selected' : '' ?>> 5. God's Grace Kids </option>
+                          <option value="6" <?= ($role == 6) ? 'selected' : '' ?>> 6. YGSM </option>
+                          <option value="7" <?= ($role == 7) ? 'selected' : '' ?>> 7. Ministries </option>
+                          <option value="8" <?= ($role == 8) ? 'selected' : '' ?>> 8. Grace Worshipers Training </option>
+                          <option value="9" <?= ($role == 9) ? 'selected' : '' ?>> 9. Penyerahan Anak </option>
+                          <option value="10" <?= ($role == 10) ? 'selected' : '' ?>> 10. Baptisan Air </option>
+                          <option value="11" <?= ($role == 11) ? 'selected' : '' ?>> 11. Worship Mission Manado </option>
+                          <option value="12" <?= ($role == 12) ? 'selected' : '' ?>> 12. Worship Mission Kalteng </option>
+                          <option value="13" <?= ($role == 13) ? 'selected' : '' ?>> 13. Worship Mission Waisai </option>
+                          <option value="14" <?= ($role == 14) ? 'selected' : '' ?>> 14. Kunjungan Akhir Tahun </option>
                         </select>
                       </div>
                     </div>
@@ -110,7 +109,7 @@ if (!$data) {
                   <div class="row mb-3">
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label for="gambar">Pilih Gambar</label>
+                        <label for="gambar"> Pilih Gambar </label>
                         <input type="file" class="form-control-file" id="gambar" name="gambar" required="">
                       </div>
                     </div>

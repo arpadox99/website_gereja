@@ -1,6 +1,4 @@
 <?php
-// Mengambil konfigurasi dari file config.php
-require_once '../config/config.php';
 
 // Menangkap dan menyaring input POST dari formulir
 $judul_slider = filter_var($_POST['judul_slider'], FILTER_SANITIZE_STRING);
@@ -21,21 +19,21 @@ $tipe = end($step2);
 if (empty($role) || empty($nama_file)) {
   // Jika ada input yang kosong, tampilkan pesan peringatan dan kembalikan ke halaman mediaedit
   echo "<script>
-            alert('Data Tidak Boleh Kosong');
+          alert('Data Tidak Boleh Kosong');
           window.history.back();
-          </script>";
+        </script>";
 } else if (!in_array($tipe, ['png', 'jpg', 'jpeg'])) {
   // Jika tipe file tidak didukung, tampilkan pesan peringatan dan kembalikan ke halaman mediaadd
   echo "<script>
-            alert('File tidak support!!');
+          alert('File tidak support!!');
           window.history.back();
-          </script>";
+        </script>";
 } else if ($size_file >= 3000000) {
   // Jika ukuran file melebihi 3MB, tampilkan pesan peringatan
   echo "<script>
-            alert('File tidak boleh > 3MB!!');
+          alert('File tidak boleh > 3MB!!');
           window.history.back();
-          </script>";
+        </script>";
 } else {
   // Jika semua input terisi dan file sesuai kriteria, lakukan pembaruan data ke database
   try {

@@ -1,13 +1,5 @@
 <?php
 
-// Database connection (ensure this is set up properly)
-// try {
-//   $con = new PDO("mysql:host=localhost;dbname=your_database", "username", "password");
-//   $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-// } catch (PDOException $e) {
-//   die("Connection failed: " . $e->getMessage());
-// }
-
 // Start output buffering
 ob_start();
 
@@ -18,9 +10,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   if (empty($username)) {
     echo "<script>
-                alert('Data Tidak Boleh Kosong');
-                window.location.href = 'index.php?page=password';
-              </script>";
+            alert('Data Tidak Boleh Kosong');
+            window.location.href = 'index.php?page=password';
+          </script>";
   } else {
     // Prepare and execute the query to verify the username
     $query = "SELECT * FROM user WHERE username = :username";
@@ -40,8 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       // If verification is successful, store the username in the session
       $_SESSION['username'] = $username;
       echo "<script>
-                window.location.href = 'index.php?page=passwordnew';
-              </script>";
+              window.location.href = 'index.php?page=passwordnew';
+            </script>";
       // header('Location: index.php?page=passwordnew');
       exit(); // Make sure to exit after a header redirect
     } else {

@@ -21,8 +21,8 @@ if (!isset($_GET['id_jadwal'])) {
     $delete->execute();
 
     echo "<script>
-                    alert('Data Berhasil Dihapus');
-                     window.location.href = 'index.php?page=jadwal';
-                </script>";
+          alert('Data Berhasil Dihapus');
+          window.location.href = 'index.php?page=jadwal';
+        </script>";
   }
 }

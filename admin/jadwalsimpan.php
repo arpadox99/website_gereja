@@ -1,18 +1,16 @@
 <?php
-require_once '../config/config.php';
 
 $hari_tgl = filter_var($_POST['hari_tgl'], FILTER_SANITIZE_STRING);
 $waktu_ibadah = filter_var($_POST['waktu_ibadah'], FILTER_SANITIZE_STRING);
 $jenis_keg = filter_var($_POST['jenis_keg'], FILTER_SANITIZE_STRING);
 $lokasi_ibadah = filter_var($_POST['lokasi_ibadah'], FILTER_SANITIZE_STRING);
 
-
 if (empty($hari_tgl) || empty($waktu_ibadah) || empty($jenis_keg) || empty($lokasi_ibadah)) {
 
   echo "<script>
-        alert('Data Tidak Boleh Kosong');
-         window.location.href = 'index.php?page=jadwal';
-        </script>";
+          alert('Data Tidak Boleh Kosong');
+          window.location.href = 'index.php?page=jadwal';
+      </script>";
 } else {
   $cek = $con->prepare("SELECT * FROM jadwal_ibadah WHERE hari_tgl = ? ");
   $cek->bindParam(1, $hari_tgl);
@@ -24,7 +22,7 @@ if (empty($hari_tgl) || empty($waktu_ibadah) || empty($jenis_keg) || empty($loka
     echo "<script>
             alert('Data Sudah Ada');
              window.location.href = 'index.php?page=jadwal';
-            </script>";
+        </script>";
   } else {
     $sql = "INSERT INTO jadwal_ibadah (hari_tgl, waktu_ibadah, jenis_keg, lokasi_ibadah) VALUES (:hari_tgl, :waktu_ibadah, :jenis_keg, :lokasi_ibadah)";
     $simpan = $con->prepare($sql);
@@ -35,8 +33,8 @@ if (empty($hari_tgl) || empty($waktu_ibadah) || empty($jenis_keg) || empty($loka
     $simpan->execute();
 
     echo "<script>
-                    alert('Data Berhasil Disimpan');
-                     window.location.href = 'index.php?page=jadwal';
-                </script>";
+            alert('Data Berhasil Disimpan');
+            window.location.href = 'index.php?page=jadwal';
+        </script>";
   }
 }

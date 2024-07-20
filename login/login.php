@@ -182,7 +182,7 @@ require_once '../config/config.php';
     </footer>
   </div>
   <!-- footer -->
-
+ 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://kit.fontawesome.com/08f3c3a570.js" crossorigin="anonymous"></script>
   <script src="../assets/js/login.js"></script>
