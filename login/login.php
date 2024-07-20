@@ -123,6 +123,7 @@ require_once '../config/config.php';
             // password benar, buat session
             $_SESSION['user-websitegereja'] = $data['username'];
             $_SESSION['role-websitegereja'] = $data['role'];
+            $_SESSION['full_name-websitegereja'] = $data['full_name'];
 
             // jika role adalah admin, tampilkan pesan selamat datang admin
             if ($data['role'] == 'ADMIN') {
@@ -182,7 +183,7 @@ require_once '../config/config.php';
     </footer>
   </div>
   <!-- footer -->
- 
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://kit.fontawesome.com/08f3c3a570.js" crossorigin="anonymous"></script>
   <script src="../assets/js/login.js"></script>

@@ -9,6 +9,8 @@ if (empty($_SESSION['user-websitegereja'])) {
 } else {
     $user = $_SESSION['user-websitegereja'];
     $role = $_SESSION['role-websitegereja'];
+    $full_name = $_SESSION['full_name-websitegereja'];
+
 ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -99,8 +101,8 @@ if (empty($_SESSION['user-websitegereja'])) {
                         </div>
                     </div>
                     <div class="sb-sidenav-footer py-2 px-3">
-                        <div class="small"> <?= $role ?> Logged in as: </div>
-                        <p style="text-transform: uppercase;"> <?= $user ?> </p>
+                        <div class="large"> <?= $full_name ?> Logged in as: </div>
+                        <p style="text-transform: uppercase;"> "<?= $role ?>" </p>
                     </div>
                 </nav>
             </div>
