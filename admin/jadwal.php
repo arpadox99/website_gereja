@@ -1,8 +1,8 @@
 <div class="container-fluid px-4">
     <h1 class="mt-4">JADWAL IBADAH</h1>
     <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-        <li class="breadcrumb-item active">Tables</li>
+        <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+        <li class="breadcrumb-item active"> Info </li>
     </ol>
     <div class="card mb-4">
         <div class="card-header">
@@ -41,10 +41,10 @@
                                                     <td>$r[jenis_keg]</td>
                                                     <td>$r[lokasi_ibadah]</td>
                                                     <td>
-                                                        <a class='btn btn-warning btn-sm text-white' href='index.php?page=edit&id_jadwal=$r[id_jadwal]'><i class='fas fa-pencil '></i></a>
+                                                        <a class='btn btn-warning btn-sm text-white' href='index.php?page=jadwaledit&id_jadwal=$r[id_jadwal]'><i class='fas fa-pencil '></i></a>
                                                     </td>
                                                     <td>
-                                                        <a class='btn btn-danger btn-sm' href='index.php?page=deletejadwal&id_jadwal=$r[id_jadwal]' onclick=\"return confirm('Hapus Data?')\"><i class='fas fa-trash'></i></a>
+                                                        <a class='btn btn-danger btn-sm' href='index.php?page=jadwaldelete&id_jadwal=$r[id_jadwal]' onclick=\"return confirm('Hapus Data?')\"><i class='fas fa-trash'></i></a>
                                                     </td>                                        
                                                 </tr>
                                             ";

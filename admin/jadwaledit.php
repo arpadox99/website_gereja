@@ -50,7 +50,7 @@ if (!$data) {
         <div class="body_1">
           <div class="bs-example"><br>
             <h1>EDIT JADWAL IBADAH</h1><br>
-            <form class="form-horizontal" action="index.php?page=updatejadwal" method="POST">
+            <form class="form-horizontal" action="index.php?page=jadwalupdate" method="POST">
               <div class="form-group" style="margin-top: 5px;">
                 <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="Hari">Hari:</label>
                 <div class="col-xs-9">

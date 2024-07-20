@@ -53,7 +53,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item px-3">
               <a class="nav-link" href="./login/login.php">
-                <i class="fas fa-sign-in-alt"></i> Login
+                <i class="fas fa-right-to-bracket"></i> Login
               </a>
             </li>
           </ul>

@@ -31,25 +31,22 @@ if (empty($_SESSION['user-websitegereja'])) {
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3 fw-bold">
-                <img draggable="false" src="../img/Logo/gbi.png" width="45" height="45" alt="GBI">
-                <img draggable="false" src="../img/Logo/ggm.png" width="45" height="45" alt="GGM">
+                <img draggable="false" src="../img/Logo/gbi.png" width="40" height="40" alt="GBI">
+                <img draggable="false" src="../img/Logo/ggm.png" width="40" height="40" alt="GGM">
                 ADMIN
             </a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
-            <!-- Navbar Search-->
-            <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
-                <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
-                    <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
-                </div>
-            </form>
+
             <!-- Navbar-->
-            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <ul class="navbar-nav ms-auto me-0 me-md-3 my-2 my-md-0">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="../login/logout.php">Logout</a></li>
+                        <li><a class="dropdown-item" href="../login/logout.php">
+                                <i class="fas fa-right-from-bracket"></i> LogOut
+                            </a>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -59,12 +56,12 @@ if (empty($_SESSION['user-websitegereja'])) {
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <div class="sb-sidenav-menu-heading">Core</div>
-                            <a class="nav-link" href="#">
+                            <div class="sb-sidenav-menu-heading"> CORE </div>
+                            <a class="nav-link" href="index.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
-                            <div class="sb-sidenav-menu-heading">Interface</div>
+                            <div class="sb-sidenav-menu-heading"> MENU </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Layouts
@@ -72,26 +69,38 @@ if (empty($_SESSION['user-websitegereja'])) {
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="index.php?page=jadwal">Info</a>
-                                    <a class="nav-link" href="index.php?page=add_media">Media</a>
+                                    <a class="nav-link" href="index.php?page=jadwal">
+                                        <div class="sb-nav-link-icon"><i class="fas fa-calendar-days"></i></div>
+                                        Info
+                                    </a>
+                                    <a class="nav-link" href="index.php?page=media">
+                                        <div class="sb-nav-link-icon"><i class="fa-brands fa-slideshare"></i></div>
+                                        Media
+                                    </a>
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
-                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fa-solid fa-user-tie"></i></div>
                                 Authentication
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
                             <div class="collapse" id="collapsePages" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="index.php?page=register">Register</a>
-                                    <a class="nav-link" href="index.php?page=password">Forgot Password</a>
+                                    <a class="nav-link" href="index.php?page=register">
+                                        <div class="sb-nav-link-icon"><i class="fa-solid fa-user-plus"></i></div>
+                                        Register
+                                    </a>
+                                    <a class="nav-link" href="index.php?page=password">
+                                        <div class="sb-nav-link-icon"><i class="fa-solid fa-user-gear"></i></div>
+                                        Forgot Password
+                                    </a>
                                 </nav>
                             </div>
                         </div>
                     </div>
-                    <div class="sb-sidenav-footer">
-                        <div class="small"> <?= $user ?> Logged in as:</div>
-                        <?= $role ?>
+                    <div class="sb-sidenav-footer py-2 px-3">
+                        <div class="small"> <?= $role ?> Logged in as:</div>
+                        <p style="text-transform: uppercase;"> <?= $user ?> </p>
                     </div>
                 </nav>
             </div>

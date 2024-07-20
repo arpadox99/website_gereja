@@ -127,13 +127,13 @@ require_once '../config/config.php';
             // jika role adalah admin, tampilkan pesan selamat datang admin
             if ($data['role'] == 'ADMIN') {
               echo "<script>
-              alert('Halo admin');
+              alert('Halo adminku sayang!!!');
               window.location.href = '../admin/index.php';
             </script>";
             } else {
               // jika role bukan admin, tampilkan pesan selamat datang pengguna biasa
               echo "<script>
-              alert('anda bkn admin');
+              alert('maaf, anda bukan admin');
               window.location.href = 'login.php';
             </script>";
             }
