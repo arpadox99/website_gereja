@@ -106,9 +106,9 @@ require_once '../config/config.php';
 
       if (empty($username) || empty($password)) {
         echo "<script>
-        alert('Akun tidak ada!!');
-        window.location.href = 'login.php';
-        </script>";
+                alert('Akun tidak ada!!');
+                window.history.back();
+              </script>";
       } else {
         //cek username
         $cek = $con->prepare("SELECT * FROM user WHERE username = :username");
@@ -128,29 +128,29 @@ require_once '../config/config.php';
             // jika role adalah admin, tampilkan pesan selamat datang admin
             if ($data['role'] == 'ADMIN') {
               echo "<script>
-              alert('Halo adminku sayang!!!');
-              window.location.href = '../admin/index.php';
-            </script>";
+                      alert('Halo adminku sayang!!!');
+                      window.location.href = '../admin/index.php';
+                    </script>";
             } else {
               // jika role bukan admin, tampilkan pesan selamat datang pengguna biasa
               echo "<script>
-              alert('maaf, anda bukan admin');
-              window.location.href = 'login.php';
-            </script>";
+                      alert('maaf, anda bukan admin');
+                      window.history.back();
+                    </script>";
             }
           } else {
             // password salah
             echo "<script>
-              alert('Password salah');
-              window.location.href = 'login.php';
-            </script>";
+                  alert('Password salah');
+                  window.history.back();
+                </script>";
           }
         } else {
           // username tidak ada
           echo "<script>
-            alert('Username salah');
-            window.location.href = 'login.php';
-          </script>";
+                alert('Username salah');
+                window.history.back();
+              </script>";
         }
       }
     }

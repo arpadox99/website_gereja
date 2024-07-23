@@ -1,9 +1,9 @@
 <?php
 
-$hari_tgl = filter_var($_POST['hari_tgl'], FILTER_SANITIZE_STRING);
-$waktu_ibadah = filter_var($_POST['waktu_ibadah'], FILTER_SANITIZE_STRING);
-$jenis_keg = filter_var($_POST['jenis_keg'], FILTER_SANITIZE_STRING);
-$lokasi_ibadah = filter_var($_POST['lokasi_ibadah'], FILTER_SANITIZE_STRING);
+$hari_tgl = filter_var($_POST['hari_tgl'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+$waktu_ibadah = filter_var($_POST['waktu_ibadah'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+$jenis_keg = filter_var($_POST['jenis_keg'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+$lokasi_ibadah = filter_var($_POST['lokasi_ibadah'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
 if (empty($hari_tgl) || empty($waktu_ibadah) || empty($jenis_keg) || empty($lokasi_ibadah)) {
 

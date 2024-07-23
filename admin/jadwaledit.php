@@ -51,6 +51,7 @@ if (!$data) {
           <div class="bs-example"><br>
             <h1> EDIT JADWAL IBADAH </h1><br>
             <form class="form-horizontal" action="index.php?page=jadwalupdate" method="POST">
+              <input type="hidden" name="id_jadwal" value="<?= $data['id_jadwal'] ?>">
               <div class="form-group" style="margin-top: 5px;">
                 <label class="d-grid gap-2 d-md-flex justify-content-md" style="margin-bottom: 5px;" for="Hari"> Hari : </label>
                 <div class="col-xs-9">

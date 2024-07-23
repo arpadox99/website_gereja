@@ -6,7 +6,7 @@ ob_start();
 // Check if the form has been submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   // Retrieve the username from POST data
-  $username = filter_var($_POST['username'], FILTER_SANITIZE_STRING);
+  $username = filter_var($_POST['username'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
   if (empty($username)) {
     echo "<script>
