@@ -33,11 +33,12 @@
               <div class="row mb-3">
                 <div class="col-md-12">
                   <div class="input-group">
-                    <select class="form-select" id="inputGroupSelect04" id="Role" type="role" name="role" aria-label="Example select with button addon">
+                    <select class="form-select" id="inputGroupSelect04" id="Role" type="role" name="role" aria-label="Example select with button addon" required>
                       <option selected>Pilih Level...</option>
+                      <option value="0"> 0. Banner </option>
                       <option value="1"> 1. Ibadah Raya </option>
                       <option value="2"> 2. Perjamuan Kasih </option>
-                      <option value="3"> 3. Sektor </option>
+                      <option value="3"> 3. Persembahan Pujian </option>
                       <option value="4"> 4. Ibadah Sektor </option>
                       <option value="5"> 5. God's Grace Kids </option>
                       <option value="6"> 6. YGSM </option>
@@ -57,7 +58,8 @@
                 <div class="col-md-12">
                   <div class="form-group">
                     <label for="gambar"> Pilih Gambar </label>
-                    <input type="file" class="form-control-file" id="gambar" name="gambar" multiple>
+                    <input type="file" class="form-control-file" id="gambar" name="gambar[]" multiple><br>
+                    <small class="text-danger"> Format gambar ( png | jpg | jpeg ) Ukuran Gambar 1440px x 830px </small>
                   </div>
                 </div>
               </div>

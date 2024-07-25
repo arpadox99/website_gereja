@@ -73,7 +73,7 @@ require_once '../config/config.php';
     <div class="login-page">
       <div class="form">
         <!-- Form Registrasi -->
-        <form class="register-form" action="user_simpan.php" method="POST">
+        <!-- <form class="register-form" action="user_simpan.php" method="POST">
           <h2><i class="bi bi-lock-fill"></i> Register</h2>
           <div class="form-group">
             <input type="text" name="username" placeholder="Username*" required="" autocomplete="off">
@@ -82,18 +82,18 @@ require_once '../config/config.php';
             <button type="submit" class="btn btn-primary">Create</button>
             <p class="message">Already registered?<a href="#">Sign In</a></p>
           </div>
-        </form>
+        </form> -->
         <!-- Form Login -->
         <form class="login-form" method="POST">
-          <h2><i class="bi bi-lock-fill"></i> Admin LogIn </h2>
+          <h2><i class="bi bi-lock-fill"></i> Admin LogIn </h2><br>
           <div class="form-group">
-            <input type="username" name="username" placeholder="Username" required="" autocomplete="off">
-            <input type="password" name="password" placeholder="Password" required="" autocomplete="off">
-            <a href="#" class="forgetpass">Forget Password?</a>
+            <input type="username" name="username" placeholder="Username" required="" autocomplete="off"><br>
+            <input type="password" name="password" placeholder="Password" required="" autocomplete="off"><br><br>
+            <!-- <a href="../admin/password.php" class="forgetpass">Forget Password?</a> -->
             <button type="submit" name="login" class="btn btn-primary">Login</button>
-            <p class="message">
-              Not registered?<a href="#">Create an account</a>
-            </p>
+            <!-- <p class="message">
+              Not registered?<a href="../admin/">Create an account</a>
+            </p> -->
           </div>
         </form>
       </div>

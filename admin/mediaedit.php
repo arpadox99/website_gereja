@@ -55,7 +55,7 @@ if (!$data) {
     <div class="container">
       <!-- Tombol Back -->
       <div class="mt-2">
-        <a class="text-dark text-decoration-none" href="index.php?page=mediaupdate"><i class="fas fa-arrow-left"></i>
+        <a class="text-dark text-decoration-none" href="index.php?page=media"><i class="fas fa-arrow-left"></i>
           Back
         </a>
       </div>
@@ -68,6 +68,13 @@ if (!$data) {
             <div class="card-body">
               <form class="media-form" action="index.php?page=mediaupdate" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
+                  <div class="row mb-3">
+                    <div class="col-md-12">
+                      <div class="form-floating mb-3 mb-md-0">
+                        <input type="hidden" name="id_gambar" value="<?php echo $id_gambar; ?>"> <!-- Hidden field for ID -->
+                      </div>
+                    </div>
+                  </div>
                   <div class="row mb-3">
                     <div class="col-md-12">
                       <div class="form-floating mb-3 mb-md-0">
@@ -87,10 +94,11 @@ if (!$data) {
                   <div class="row mb-3">
                     <div class="col-md-12">
                       <div class="input-group">
-                        <select class="form-select" id="Role" name="role" aria-label="Example select with button addon">
+                        <select class="form-select" id="Role" name="role" aria-label="Example select with button addon" required>
+                          <option value="0" <?= ($role == 0) ? 'selected' : '' ?>> 0. Banner </option>
                           <option value="1" <?= ($role == 1) ? 'selected' : '' ?>> 1. Ibadah Raya </option>
                           <option value="2" <?= ($role == 2) ? 'selected' : '' ?>> 2. Perjamuan Kasih </option>
-                          <option value="3" <?= ($role == 3) ? 'selected' : '' ?>> 3. Sektor </option>
+                          <option value="3" <?= ($role == 3) ? 'selected' : '' ?>> 3. Persembahan Pujian </option>
                           <option value="4" <?= ($role == 4) ? 'selected' : '' ?>> 4. Ibadah Sektor </option>
                           <option value="5" <?= ($role == 5) ? 'selected' : '' ?>> 5. God's Grace Kids </option>
                           <option value="6" <?= ($role == 6) ? 'selected' : '' ?>> 6. YGSM </option>
@@ -110,7 +118,8 @@ if (!$data) {
                     <div class="col-md-12">
                       <div class="form-group">
                         <label for="gambar"> Pilih Gambar </label>
-                        <input type="file" class="form-control-file" id="gambar" name="gambar" required="">
+                        <input type="file" class="form-control-file" id="gambar" name="gambar"><br>
+                        <small class="text-danger"> Format gambar ( png | jpg | jpeg ) Ukuran Gambar 1440px x 830px </small>
                       </div>
                     </div>
                   </div>
@@ -120,9 +129,10 @@ if (!$data) {
                     </div>
                   </div>
                   <div>
-                    <?php if ($gambar_slider) : ?>
+                    <?php if ($gambar_slider && $role) : ?>
                       <div class="mt-3">
-                        <img src="../img/img_upload/<?= htmlspecialchars($gambar_slider) ?>" alt="Gambar Slider" style="max-width: 100%;">
+                        <!-- Menentukan path gambar berdasarkan role yg diambil -->
+                        <img src="../img/img_upload/<?= htmlspecialchars($role) ?>/<?= htmlspecialchars($gambar_slider) ?>" alt="Gambar Slider" style="max-width: 100%;">
                       </div>
                     <?php endif; ?>
                   </div>

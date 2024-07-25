@@ -1,5 +1,10 @@
 let goTopBtn = document.getElementById("goTopBtn");
+
 window.onscroll = function () {
+  scrollFunction();
+};
+
+window.onload = function () {
   scrollFunction();
 };
 

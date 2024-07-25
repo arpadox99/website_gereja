@@ -66,8 +66,9 @@
   <div id="media">
     <img src="../img/media/banner.jpg" class="mx-auto d-block img-fluid" alt="banner media">
     <div class="container mt-4" id="ibadah raya - IR">
-      <?=
+      <?php
       include '../config/config.php';
+
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '1'; // Ganti dengan nilai role yang sesuai
 
@@ -78,7 +79,6 @@
 
       $jumlah = $cari->rowCount();
       ?>
-
       <div id="carousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-indicators">
           <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
@@ -112,9 +112,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="perjamuan kasih - PK">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '2'; // Ganti dengan nilai role yang sesuai
@@ -160,9 +160,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="pujian suara - PJS">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '3'; // Ganti dengan nilai role yang sesuai
@@ -208,10 +208,10 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <!-- Caption Sektor Pisah -->
     <div class="container mt-4" id="ibadah sektor - IS">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
@@ -265,10 +265,10 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <!-- Caption Sektor Pisah -->
     <div class="container mt-4" id="god grace kids - GGK">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '5'; // Ganti dengan nilai role yang sesuai
@@ -314,9 +314,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="youth grace ministry - YGSM">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '6'; // Ganti dengan nilai role yang sesuai
@@ -362,9 +362,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="melayani - MLYN">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '7'; // Ganti dengan nilai role yang sesuai
@@ -410,9 +410,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="grace worshipers training - GWT">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '8'; // Ganti dengan nilai role yang sesuai
@@ -458,9 +458,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="penyerahan anak - PA">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '9'; // Ganti dengan nilai role yang sesuai
@@ -506,9 +506,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="baptisan air - BA">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '10'; // Ganti dengan nilai role yang sesuai
@@ -554,9 +554,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="worship mision manado - MIS-MANADO">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '11'; // Ganti dengan nilai role yang sesuai
@@ -602,9 +602,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="worship mision kalteng - MIS-KALTENG">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '12'; // Ganti dengan nilai role yang sesuai
@@ -651,9 +651,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="worship mision waisai - MIS-WAISAI">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '13'; // Ganti dengan nilai role yang sesuai
@@ -699,9 +699,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <div class="container mt-4" id="kunjungan akhir tahun - KAT">
-      <?=
+      <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '14'; // Ganti dengan nilai role yang sesuai
@@ -747,14 +747,14 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
-    </div>
+    </div> <br>
     <br>
   </div>
   <!-- isi -->
 
   <!-- Button to Top -->
   <div id="goTop">
-    <a href="#" id="goTopBtn"><i class="fa fa-chevron-up" id="btt" style="margin-bottom: 5px;"></i></a>
+    <a href="#" id="goTopBtn"><i class="fa fa-chevron-up" id="btt"></i></a>
   </div>
   <!-- Button to Top -->
 

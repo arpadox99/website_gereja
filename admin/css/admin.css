@@ -1,0 +1,35 @@
+/* Gaya untuk perangkat dengan lebar maksimal 400px (misalnya ponsel) */
+@media (max-width: 400px) {
+  iframe {
+    width: 345px !important;
+    height: 520px !important;
+  }
+}
+
+/* Gaya untuk perangkat dengan lebar maksimal 376px (misalnya ponsel) */
+@media (max-width: 376px) {
+  iframe {
+    width: 330px !important;
+    height: 500px !important;
+  }
+}
+
+/* Gaya untuk perangkat dengan lebar maksimal 480px (misalnya ponsel) */
+@media (max-width: 480px) {
+  iframe {
+    width: 380px;
+    height: 600px;
+  }
+}
+
+/* Gaya untuk perangkat dengan lebar maksimal 768px (misalnya tablet potret) */
+@media (max-width: 768px) {
+}
+
+/* Gaya untuk perangkat dengan lebar maksimal 1024px (misalnya tablet lanskap atau layar laptop kecil) */
+@media (max-width: 1024px) {
+}
+
+/* Gaya untuk perangkat dengan lebar maksimal 1280px (misalnya laptop standar) */
+@media (max-width: 1280px) {
+}

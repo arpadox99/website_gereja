@@ -12,7 +12,7 @@
     <div class="card-body">
       <table id="datatablesSimple">
         <div class="col-md-12 bg-light">
-          <div class="d-grid gap-2 d-md-flex justify-content-md ">
+          <div class="d-flex justify-content-between">
             <!-- Button trigger modal -->
             <a href="index.php?page=mediaadd">
               <button type="button" class="btn btn-primary" style="margin-bottom: 15px;">
@@ -25,14 +25,13 @@
               <i class="fas fa-info"></i>
               Info Role
             </button>
-            <!-- Button trigger modal
-            <button type="button" class="btn btn-info " >
-            </button> -->
           </div>
         </div>
+
         <thead>
-          <tr class="text-center">
-            <th> GAMBAR </th>
+          <tr>
+            <th> NO </th>
+            <th style="width: 100px;"> GAMBAR </th> <!-- Set the width of the image column -->
             <th> NAMA GAMBAR </th>
             <th> JUDUL </th>
             <th> DESKRIPSI </th>
@@ -46,24 +45,30 @@
           $no = 1;
           $sql = $con->query("SELECT * FROM slider");
           while ($r = $sql->fetch()) {
+            $role = htmlspecialchars($r['role']);
+            $gambar_slider = htmlspecialchars($r['gambar_slider']);
+
+            // Menentukan path gambar berdasarkan role
+            $gambar_path = "../img/img_upload/$role/$gambar_slider";
+
             echo "
-              <tr align='center'>
-                <td>
-                  <img src='../img/img_upload/" . htmlspecialchars($r['gambar_slider']) . "' style='width: 50%;'>
-                </td>
-                <td>$r[gambar_slider]</td>
-                <td>$r[judul_slider]</td>
-                <td>$r[deskripsi_slider]</td>
-                <td>$r[role]</td>
-                <td>
-                  <a class='btn btn-warning btn-sm text-white' href='index.php?page=mediaedit&id_gambar=$r[id_gambar]'><i class='fas fa-pencil'></i></a>
-                </td>
-                <td>
-                  <a class='btn btn-danger btn-sm' href='index.php?page=mediadelete&id_gambar=$r[id_gambar]' onclick=\"return confirm('Hapus Data?')\"><i class='fas fa-trash'></i></a>
-                </td>                                        
-              </tr>
-            ";
-            $no++;
+                  <tr>
+                    <td>" . htmlspecialchars($no++) . "</td>
+                    <td style='width: 100px;'> <!-- Ensure the image column has a fixed width -->
+                      <img src='$gambar_path' class='img-fluid' style='max-width: 250px;'> <!-- Responsive image -->
+                    </td>
+                    <td>" . $gambar_slider . "</td>
+                    <td>" . htmlspecialchars($r['judul_slider']) . "</td>
+                    <td>" . htmlspecialchars($r['deskripsi_slider']) . "</td>
+                    <td>" . $role . "</td>
+                    <td>
+                      <a class='btn btn-warning btn-sm text-white' href='index.php?page=mediaedit&id_gambar=" . htmlspecialchars($r['id_gambar']) . "'><i class='fas fa-pencil'></i></a>
+                    </td>
+                    <td>
+                      <a class='btn btn-danger btn-sm' href='index.php?page=mediadelete&id_gambar=" . htmlspecialchars($r['id_gambar']) . "' onclick=\"return confirm('Hapus Data?')\"><i class='fas fa-trash'></i></a>
+                    </td>
+                  </tr>
+                ";
           }
           ?>
         </tbody>
@@ -71,7 +76,7 @@
     </div>
   </div>
 </div>
-<!-- Modal -->
+<!-- Modal Input -->
 <div class="modal fade" id="formJadwal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -107,7 +112,7 @@
   </div>
 </div>
 
-<!-- Modal -->
+<!-- Modal Role -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -117,6 +122,7 @@
       </div>
       <div class="modal-body">
         <ul>
+          <li> 0. Banner </li>
           <li> 1. Ibadah Raya </li>
           <li> 2. Perjamuan Kasih </li>
           <li> 3. Persembahan Pujian </li>

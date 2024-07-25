@@ -1176,11 +1176,14 @@ p.fontjs {
   position: fixed; /* posisi tetap sesuai ukuran dibwah */
   right: 40px;
   bottom: 75px;
+  z-index: 1000;
 }
+
 #goTop #goTopBtn {
   background-color: rgba(208, 208, 208, 0.8); /* warna backgrd buttong */
   width: 45px;
   height: 45px;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -1188,15 +1191,20 @@ p.fontjs {
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
+
 #goTop:hover #goTopBtn {
   background: rgba(86, 39, 144, 0.8); /* warna backgrd buttong */
 }
+
 /* warna button arah */
 #btt {
   color: #190064;
-  font-size: 1.5rem;
+  font-size: 2rem; /* Increase font size */
+  font-weight: bold; /* Make the icon bold */
   transition: color 0.3s ease;
+  margin: 10px auto;
 }
+
 #goTop:hover #goTopBtn #btt {
   color: rgba(255, 255, 255, 1); /* warna arrow */
 }

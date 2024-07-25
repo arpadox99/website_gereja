@@ -1,12 +1,17 @@
 let goTopBtn = document.getElementById("goTopBtn");
+
 window.onscroll = function () {
+  scrollFunction();
+};
+
+window.onload = function () {
   scrollFunction();
 };
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 9300 ||
-    document.documentElement.scrollTop > 9300
+    document.body.scrollTop > 11000 ||
+    document.documentElement.scrollTop > 11000
   ) {
     goTopBtn.style.display = "flex";
   } else {
